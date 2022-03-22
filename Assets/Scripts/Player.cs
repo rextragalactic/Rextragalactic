@@ -8,11 +8,13 @@ public class Player : MonoBehaviour
     public float speed;
 
     private Rigidbody2D rb;
+    private Animator animator;
 
     private Vector2 moveAmount;
 
     private void Start()
     {
+        animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
     }
 
@@ -20,6 +22,15 @@ public class Player : MonoBehaviour
     {
         Vector2 moveInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         moveAmount = moveInput.normalized * speed;
+
+        if(moveInput != Vector2.zero)
+        {
+            animator.SetBool("IsRunning", true);
+        }
+        else
+        {
+            animator.SetBool("IsRunning", false);
+        }
     }
 
     private void FixedUpdate()

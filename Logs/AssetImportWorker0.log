@@ -156,3 +156,11 @@ Received Import Request.
 Start importing Assets/Sprites using Guid(30abe8ef08df74fd3908a4878b85ba15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f172377322261c7c1be424a87d6e0d3') in 0.004562 seconds 
   Import took 0.007698 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 395.707253 seconds.
+  path: Assets/Sprites/Sprite_Sheet.png
+  artifactKey: Guid(88260d47b5497461c850fb3534f1932d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sprite_Sheet.png using Guid(88260d47b5497461c850fb3534f1932d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd91dbf9695bf8df19f5643bfd988a2b2') in 1.485282 seconds 
+  Import took 1.488773 seconds .
+

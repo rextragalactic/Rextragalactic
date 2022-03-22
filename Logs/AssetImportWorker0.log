@@ -164,3 +164,59 @@ Received Import Request.
 Start importing Assets/Sprites/Sprite_Sheet.png using Guid(88260d47b5497461c850fb3534f1932d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd91dbf9695bf8df19f5643bfd988a2b2') in 1.485282 seconds 
   Import took 1.488773 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 162.020337 seconds.
+  path: Assets/Sprites/Sprite_Sheet.png
+  artifactKey: Guid(88260d47b5497461c850fb3534f1932d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sprite_Sheet.png using Guid(88260d47b5497461c850fb3534f1932d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72de33f7424dcdad576353267b50a721') in 0.019916 seconds 
+  Import took 0.023825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 140.492643 seconds.
+  path: Assets/Sprites/Sprite_Sheet.png
+  artifactKey: Guid(88260d47b5497461c850fb3534f1932d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sprite_Sheet.png using Guid(88260d47b5497461c850fb3534f1932d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db4e982234b5bf43edf2b5e980b197bd') in 0.017227 seconds 
+  Import took 0.021092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.772944 seconds.
+  path: Assets/Sprites/Sprite_Sheet.png
+  artifactKey: Guid(88260d47b5497461c850fb3534f1932d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sprite_Sheet.png using Guid(88260d47b5497461c850fb3534f1932d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6601ae5099e57fd015cb22f1df91f78b') in 0.014810 seconds 
+  Import took 0.018653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 138.597477 seconds.
+  path: Assets/Sprites/Sprite_Sheet.png
+  artifactKey: Guid(88260d47b5497461c850fb3534f1932d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sprite_Sheet.png using Guid(88260d47b5497461c850fb3534f1932d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ff6aaa05808834a29368e51f3ecdb81') in 0.018563 seconds 
+  Import took 0.022130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.909503 seconds.
+  path: Assets/Sprites/Sprite_Sheet.png
+  artifactKey: Guid(88260d47b5497461c850fb3534f1932d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sprite_Sheet.png using Guid(88260d47b5497461c850fb3534f1932d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ca0ee2e59079fdaae0b6856e57b6ed6') in 0.013024 seconds 
+  Import took 0.016798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 281.418412 seconds.
+  path: Assets/Sprites/Sprite_Sheet.png
+  artifactKey: Guid(88260d47b5497461c850fb3534f1932d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sprite_Sheet.png using Guid(88260d47b5497461c850fb3534f1932d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b99808afe22d054e481936d7e3e4c16') in 0.015270 seconds 
+  Import took 0.019355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 118.115438 seconds.
+  path: Assets/Sprites/Sprite_Sheet.png
+  artifactKey: Guid(88260d47b5497461c850fb3534f1932d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sprite_Sheet.png using Guid(88260d47b5497461c850fb3534f1932d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae262c2b620288f2e7bfc4725d5959a4') in 0.076307 seconds 
+  Import took 0.080426 seconds .
+

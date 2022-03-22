@@ -436,3 +436,19 @@ Received Import Request.
 Start importing Assets/Sprites/Sprite_Sheet.png using Guid(88260d47b5497461c850fb3534f1932d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce6bd79cc2d8b7130ade26c5e64653fa') in 0.084242 seconds 
   Import took 0.088420 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 1059.985090 seconds.
+  path: Assets/Animation/IDLE Player1.anim
+  artifactKey: Guid(25b8bc141eede440aa4edd895cff78ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/IDLE Player1.anim using Guid(25b8bc141eede440aa4edd895cff78ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c436b4a3b71f98a7e0c3dbc7fdcf3214') in 0.006363 seconds 
+  Import took 0.010162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 101.010955 seconds.
+  path: Assets/Animation/Player1.controller
+  artifactKey: Guid(69b7984638fc24e42bd72758c8af6f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Player1.controller using Guid(69b7984638fc24e42bd72758c8af6f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '544679ab04bc90fc38d7fc24dda4f830') in 0.006010 seconds 
+  Import took 0.009875 seconds .
+

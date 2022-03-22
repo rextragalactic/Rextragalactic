@@ -37,6 +37,7 @@ public class Weapon : MonoBehaviour
                 if(Time.time >= 0)
                 {
                     Instantiate(fireball, shotPoint.position, transform.rotation);
+                shotTime = Time.time + timeBetweenShots;
                 }
             }
         }

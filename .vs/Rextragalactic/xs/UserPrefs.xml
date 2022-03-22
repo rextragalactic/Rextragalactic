@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{1E3DF50E-9DDF-3F89-696A-ED09CD4A4BD9}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Weapon.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Fireball.cs">
     <Files>
       <File FileName="Assets/Scripts/Player.cs" Line="32" Column="32" />
-      <File FileName="Assets/Scripts/Weapon.cs" Line="16" Column="9" />
+      <File FileName="Assets/Scripts/Weapon.cs" Line="40" Column="57" />
+      <File FileName="Assets/Scripts/Fireball.cs" Line="6" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -10,7 +11,7 @@
           <Node name="Rextragalactic" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="Weapon.cs" selected="True" />
+                <Node name="Fireball.cs" selected="True" />
               </Node>
             </Node>
           </Node>

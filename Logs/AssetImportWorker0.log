@@ -244,3 +244,35 @@ Received Import Request.
 Start importing Assets/Sprites/Sprite_Sheet.png using Guid(88260d47b5497461c850fb3534f1932d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d2c95067cc844d25886e7fe126a6008') in 0.066907 seconds 
   Import took 0.071122 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 140.326513 seconds.
+  path: Assets/Animation
+  artifactKey: Guid(7cc0414d875144e63b116961426f926b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation using Guid(7cc0414d875144e63b116961426f926b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cab938955a84b8e8223c6e180f36fa96') in 0.001590 seconds 
+  Import took 0.005288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 541.155143 seconds.
+  path: Assets/Animation/Idle Player 1.anim
+  artifactKey: Guid(bb27abc85980542fdaeb88b31003e004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Idle Player 1.anim using Guid(bb27abc85980542fdaeb88b31003e004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af4029077dc4b546f08e39f8f71f37d6') in 1.111983 seconds 
+  Import took 1.115566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1109.083265 seconds.
+  path: Assets/Sprites/Sprite_Sheet 1.png
+  artifactKey: Guid(81e50250eb22643af91a17d2acfd39ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sprite_Sheet 1.png using Guid(81e50250eb22643af91a17d2acfd39ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd7b90f12fc88362de68d47a7f10590') in 0.016015 seconds 
+  Import took 0.019970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.898693 seconds.
+  path: Assets/Animation/Player 1.controller
+  artifactKey: Guid(240e4193d99684e298f30a65db1a5d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Player 1.controller using Guid(240e4193d99684e298f30a65db1a5d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '716d30c00799a3b908fd02030e245d74') in 0.339334 seconds 
+  Import took 0.343285 seconds .
+

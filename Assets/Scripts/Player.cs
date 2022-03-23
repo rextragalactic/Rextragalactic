@@ -10,6 +10,8 @@ public class Player : MonoBehaviour
     private Rigidbody2D rb;
     private Animator animator;
 
+    public float health;
+
     private Vector2 moveAmount;
 
     private void Start()
@@ -36,6 +38,17 @@ public class Player : MonoBehaviour
     private void FixedUpdate()
     {
         rb.MovePosition(rb.position + moveAmount * Time.fixedDeltaTime);
+    }
+
+    public void TakeDamage(int damageAmount)
+    {
+        health -= damageAmount;
+
+        // If the health is smaller or equal to 0 - enemie dies - enemy game object will be destroyed
+        if (health <= 0)
+        {
+            Destroy(GameObject.FindGameObjectWithTag("Player"));
+        }
     }
 }
 

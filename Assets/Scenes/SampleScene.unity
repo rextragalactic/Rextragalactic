@@ -1478,7 +1478,10 @@ MonoBehaviour:
   health: 3
   player: {fileID: 1764641811}
   speed: 20
+  timeBetweenAttackts: 3
+  damage: 1
   stopDistance: 6
+  attackSpeed: 8
 --- !u!50 &1416179807
 Rigidbody2D:
   serializedVersion: 4
@@ -1985,6 +1988,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+  health: 5
 --- !u!50 &1764641813
 Rigidbody2D:
   serializedVersion: 4

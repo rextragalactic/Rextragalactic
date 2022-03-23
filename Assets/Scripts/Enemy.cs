@@ -13,6 +13,10 @@ public class Enemy : MonoBehaviour
 
     public float speed;
 
+    public float timeBetweenAttackts;
+
+    public int damage;
+
 
     void Start()
     {

@@ -8,11 +8,15 @@ public class Enemy : MonoBehaviour
 
     public int health;
 
+    [HideInInspector] // Hide it from the Inspector
+    public Transform player;
 
-    // Start is called before the first frame update
+    public float speed;
+
+
     void Start()
     {
-        
+        player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
     // Update is called once per frame
@@ -28,7 +32,7 @@ public class Enemy : MonoBehaviour
         // If the health is smaller or equal to 0 - enemie dies - enemy game object will be destroyed
         if (health <= 0)
         {
-            Destroy(gameObject);
+            Destroy(this.gameObject);
         }
     }
 }

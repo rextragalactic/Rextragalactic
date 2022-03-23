@@ -1472,10 +1472,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1416179805}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: edc2020a01573471ab33e6184dd439ef, type: 3}
+  m_Script: {fileID: 11500000, guid: f4485c91e5ee04b8bb96d41de6f27139, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   health: 3
+  player: {fileID: 0}
+  speed: 20
+  stopDistance: 5
 --- !u!50 &1416179807
 Rigidbody2D:
   serializedVersion: 4
@@ -1925,8 +1928,8 @@ GameObject:
   - component: {fileID: 1764641812}
   - component: {fileID: 1764641814}
   m_Layer: 0
-  m_Name: Player1
-  m_TagString: Untagged
+  m_Name: Player
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2120,7 +2123,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3207644380768578041, guid: 9dc97dc7d0975458a8139455bbdefd0a, type: 3}
       propertyPath: m_Name
-      value: Alien Enemy
+      value: Red Alien Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 3207644380768578041, guid: 9dc97dc7d0975458a8139455bbdefd0a, type: 3}
       propertyPath: m_TagString
@@ -2132,11 +2135,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3207644380768578042, guid: 9dc97dc7d0975458a8139455bbdefd0a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.428
+      value: -5.8
       objectReference: {fileID: 0}
     - target: {fileID: 3207644380768578042, guid: 9dc97dc7d0975458a8139455bbdefd0a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.405
+      value: -4.47
       objectReference: {fileID: 0}
     - target: {fileID: 3207644380768578042, guid: 9dc97dc7d0975458a8139455bbdefd0a, type: 3}
       propertyPath: m_LocalPosition.z

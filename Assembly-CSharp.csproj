@@ -58,6 +58,7 @@
     <Compile Include="Assets/Scripts/Fireball.cs" />
     <Compile Include="Assets/Scripts/CameraFollow.cs" />
     <Compile Include="Assets/Scripts/Enemy.cs" />
+    <Compile Include="Assets/Scripts/RedAlienEnemy.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

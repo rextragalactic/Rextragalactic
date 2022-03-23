@@ -306,7 +306,7 @@ GameObject:
   m_Component:
   - component: {fileID: 242189237}
   - component: {fileID: 242189236}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Eye Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -438,7 +438,7 @@ GameObject:
   m_Component:
   - component: {fileID: 379969038}
   - component: {fileID: 379969037}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Eyebrow Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -660,7 +660,7 @@ GameObject:
   m_Component:
   - component: {fileID: 702010700}
   - component: {fileID: 702010699}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Leg Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -742,7 +742,7 @@ GameObject:
   m_Component:
   - component: {fileID: 745475964}
   - component: {fileID: 745475963}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -864,7 +864,7 @@ GameObject:
   m_Component:
   - component: {fileID: 849749832}
   - component: {fileID: 849749831}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arm Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -946,7 +946,7 @@ GameObject:
   m_Component:
   - component: {fileID: 944095339}
   - component: {fileID: 944095338}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Eye Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1028,7 +1028,7 @@ GameObject:
   m_Component:
   - component: {fileID: 989926659}
   - component: {fileID: 989926658}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Horn Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1109,7 +1109,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1041563853}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ShotPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1222,7 +1222,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1206563168}
   - component: {fileID: 1206563167}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Eyebrow Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1304,7 +1304,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1242938461}
   - component: {fileID: 1242938460}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Hair Top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1386,7 +1386,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1328206749}
   - component: {fileID: 1328206748}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Leg Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1539,7 +1539,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1449923422}
   - component: {fileID: 1449923421}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1624,7 +1624,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1493756147}
   - component: {fileID: 1493756146}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Horn Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1706,7 +1706,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1525502613}
   - component: {fileID: 1525502612}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Hair Back
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1788,7 +1788,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1655261850}
   - component: {fileID: 1655261851}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1930,7 +1930,7 @@ GameObject:
   - component: {fileID: 1764641813}
   - component: {fileID: 1764641812}
   - component: {fileID: 1764641814}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -2046,7 +2046,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1946169383}
   - component: {fileID: 1946169382}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arm Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2125,9 +2125,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3207644379877511891, guid: 9dc97dc7d0975458a8139455bbdefd0a, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207644380112613460, guid: 9dc97dc7d0975458a8139455bbdefd0a, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207644380588676182, guid: 9dc97dc7d0975458a8139455bbdefd0a, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207644380670637137, guid: 9dc97dc7d0975458a8139455bbdefd0a, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 3207644380768578041, guid: 9dc97dc7d0975458a8139455bbdefd0a, type: 3}
       propertyPath: m_Name
       value: Red Alien Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207644380768578041, guid: 9dc97dc7d0975458a8139455bbdefd0a, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 3207644380768578041, guid: 9dc97dc7d0975458a8139455bbdefd0a, type: 3}
       propertyPath: m_TagString
@@ -2176,6 +2196,22 @@ PrefabInstance:
     - target: {fileID: 3207644380768578042, guid: 9dc97dc7d0975458a8139455bbdefd0a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207644380803855284, guid: 9dc97dc7d0975458a8139455bbdefd0a, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207644380819761888, guid: 9dc97dc7d0975458a8139455bbdefd0a, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207644380825413767, guid: 9dc97dc7d0975458a8139455bbdefd0a, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207644381095591100, guid: 9dc97dc7d0975458a8139455bbdefd0a, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 5413714311296004143, guid: 9dc97dc7d0975458a8139455bbdefd0a, type: 3}
       propertyPath: stopDistance
@@ -2252,9 +2288,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1764641811}
     m_Modifications:
+    - target: {fileID: 1471015303172258790, guid: 95c96faa3fdfe47d9a3d65da7ee6cfcb, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4969102804806020609, guid: 95c96faa3fdfe47d9a3d65da7ee6cfcb, type: 3}
       propertyPath: m_Name
       value: Weapon
+      objectReference: {fileID: 0}
+    - target: {fileID: 4969102804806020609, guid: 95c96faa3fdfe47d9a3d65da7ee6cfcb, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6961373770941506969, guid: 95c96faa3fdfe47d9a3d65da7ee6cfcb, type: 3}
       propertyPath: m_RootOrder

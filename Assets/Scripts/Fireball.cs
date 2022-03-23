@@ -11,6 +11,8 @@ public class Fireball : MonoBehaviour
 
     public GameObject explosion;
 
+    public int damage;
+
     // Start is called before the first frame update
     private void Start()
     {
@@ -29,5 +31,14 @@ public class Fireball : MonoBehaviour
         // (What am I spawing, at what position, at what rotation)
         Instantiate(explosion, transform.position, Quaternion.identity);
         Destroy(gameObject);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if ( collision.tag == "Enemy")
+        {
+            collision.GetComponent<Enemy>().TakeDamage(damage);
+            DestroyProjectile();
+        }
     }
 }

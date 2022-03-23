@@ -1476,7 +1476,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 3
-  player: {fileID: 0}
+  player: {fileID: 1764641811}
   speed: 20
   stopDistance: 5
 --- !u!50 &1416179807
@@ -2173,7 +2173,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 5413714311296004143, guid: 9dc97dc7d0975458a8139455bbdefd0a, type: 3}
+      propertyPath: stopDistance
+      value: 5
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5413714311296004143, guid: 9dc97dc7d0975458a8139455bbdefd0a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 9dc97dc7d0975458a8139455bbdefd0a, type: 3}
 --- !u!1001 &6346411906193283469
 PrefabInstance:

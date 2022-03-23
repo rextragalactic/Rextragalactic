@@ -12,12 +12,6 @@ public class Weapon : MonoBehaviour
 
     private float shotTime;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {
@@ -40,6 +34,7 @@ public class Weapon : MonoBehaviour
             // Current time in the game 
             if (Time.time >= shotTime)
                 {
+
                 //Instantiate(fireball, shotPoint.transform.position, shotPoint.transform.rotation);
 
                 // (What am I spawing, at what position, at what rotation)

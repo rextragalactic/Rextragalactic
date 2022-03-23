@@ -7,7 +7,7 @@ public class RedAlienEnemy : Enemy
     // 1. Follow Plaer Around
 
     public float stopDistance; // This is for the Enemy to follow the Player ti a specific distance
-
+    
 
 
     // Start is called before the first frame update
@@ -23,7 +23,7 @@ public class RedAlienEnemy : Enemy
         {
             if (Vector2.Distance(transform.position, player.position) > stopDistance)
             {
-                transform.position = Vector2.MoveTowards(transform.position,player.position, speed * Time.deltaTime);
+                transform.position = Vector2.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
             }
         }
         

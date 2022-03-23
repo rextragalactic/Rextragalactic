@@ -5,8 +5,8 @@
       <File FileName="Assets/Scripts/Weapon.cs" Line="43" Column="1" />
       <File FileName="Assets/Scripts/Fireball.cs" Line="41" Column="33" />
       <File FileName="Assets/Scripts/CameraFollow.cs" Line="34" Column="96" />
-      <File FileName="Assets/Scripts/Enemy.cs" Line="28" Column="102" />
-      <File FileName="Assets/Scripts/RedAlienEnemy.cs" Line="5" Column="35" />
+      <File FileName="Assets/Scripts/Enemy.cs" Line="34" Column="10" />
+      <File FileName="Assets/Scripts/RedAlienEnemy.cs" Line="26" Column="116" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

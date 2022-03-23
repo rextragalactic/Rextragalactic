@@ -340,9 +340,10 @@ GameObject:
   m_Component:
   - component: {fileID: 3207644380768578042}
   - component: {fileID: 3207644380768578043}
+  - component: {fileID: 5413714311296004143}
   m_Layer: 0
   m_Name: Red Alien Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -383,6 +384,22 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &5413714311296004143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3207644380768578041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4485c91e5ee04b8bb96d41de6f27139, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 3
+  player: {fileID: 0}
+  speed: 20
+  stopDistance: 0.89
 --- !u!1 &3207644380803855284
 GameObject:
   m_ObjectHideFlags: 0

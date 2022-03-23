@@ -5,6 +5,7 @@ using UnityEngine;
 public class Fireball : MonoBehaviour
 {
     public float speed;
+
     // How long is the fireball going to stay in the game
     public float lifeTime;
 

@@ -42,7 +42,7 @@ public class Weapon : MonoBehaviour
                 {
                 //Instantiate(fireball, shotPoint.transform.position, shotPoint.transform.rotation);
 
-                // (What do we want to spawn, at what position the spawn, rotation)
+                // (What am I spawing, at what position, at what rotation)
                 Instantiate(fireball, shotPoint.position, transform.rotation);
 
                 shotTime = Time.time + timeBetweenShots;

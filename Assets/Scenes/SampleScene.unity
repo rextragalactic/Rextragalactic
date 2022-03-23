@@ -1478,7 +1478,7 @@ MonoBehaviour:
   health: 3
   player: {fileID: 1764641811}
   speed: 20
-  stopDistance: 5
+  stopDistance: 6
 --- !u!50 &1416179807
 Rigidbody2D:
   serializedVersion: 4
@@ -2237,7 +2237,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6346411908272495482, guid: 041f93313fc324da3b6d3a6c4afb8b15, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 041f93313fc324da3b6d3a6c4afb8b15, type: 3}

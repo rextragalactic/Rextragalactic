@@ -180,7 +180,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  lifeTime: 0.5
+  lifeTime: 0.7
   explosion: {fileID: 6346411908272495482, guid: 041f93313fc324da3b6d3a6c4afb8b15, type: 3}
 --- !u!1 &7420483070438237610
 GameObject:

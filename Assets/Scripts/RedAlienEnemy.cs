@@ -11,7 +11,7 @@ public class RedAlienEnemy : Enemy
     private float attackTime;
     public float attackSpeed;
 
-
+    
 
     // Start is called before the first frame update
     void Start()
@@ -60,7 +60,6 @@ public class RedAlienEnemy : Enemy
         }
 
 
-
-
     }
+    
 }

@@ -1,11 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Enemy.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player.cs">
     <Files>
-      <File FileName="Assets/Scripts/Player.cs" Line="32" Column="32" />
+      <File FileName="Assets/Scripts/Player.cs" Line="32" Column="13" />
       <File FileName="Assets/Scripts/Weapon.cs" />
-      <File FileName="Assets/Scripts/Fireball.cs" Line="41" Column="33" />
+      <File FileName="Assets/Scripts/Fireball.cs" />
       <File FileName="Assets/Scripts/CameraFollow.cs" />
-      <File FileName="Assets/Scripts/Enemy.cs" Line="21" Column="1" />
       <File FileName="Assets/Scripts/RedAlienEnemy.cs" />
     </Files>
     <Pads>
@@ -15,7 +14,7 @@
             <Node name="Assembly-CSharp" expanded="True">
               <Node name="Assets" expanded="True">
                 <Node name="Scripts" expanded="True">
-                  <Node name="Enemy.cs" selected="True" />
+                  <Node name="Player.cs" selected="True" />
                 </Node>
               </Node>
             </Node>

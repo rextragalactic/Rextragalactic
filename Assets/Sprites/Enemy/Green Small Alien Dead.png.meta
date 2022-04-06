@@ -1,7 +1,22 @@
 fileFormatVersion: 2
 guid: 627d9d061f5ab45d48426470eac940f1
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -6405622124142727011
+    second: Green Small Alien Dead_0
+  - first:
+      213: -7642477161343125095
+    second: Green Small Alien Dead_1
+  - first:
+      213: 3869137051338045124
+    second: Green Small Alien Dead_2
+  - first:
+      213: 6725516492376589176
+    second: Green Small Alien Dead_3
+  - first:
+      213: -4941760724267589198
+    second: Green Small Alien Dead_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +56,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +90,126 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Green Small Alien Dead_0
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 1411
+        width: 558
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d90f615dd98aa17a0800000000000000
+      internalID: -6405622124142727011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Small Alien Dead_1
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 597
+        width: 1445
+        height: 674
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9997b1a638770f590800000000000000
+      internalID: -7642477161343125095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Small Alien Dead_2
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 364
+        width: 192
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c67e4c06afe1b530800000000000000
+      internalID: 3869137051338045124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Small Alien Dead_3
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 344
+        width: 164
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8734323dd95d55d50800000000000000
+      internalID: 6725516492376589176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Small Alien Dead_4
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 432
+        width: 221
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b1ad09cdc65b6bb0800000000000000
+      internalID: -4941760724267589198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

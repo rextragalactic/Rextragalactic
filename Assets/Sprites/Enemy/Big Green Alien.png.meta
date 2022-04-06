@@ -1,7 +1,28 @@
 fileFormatVersion: 2
 guid: 8f29ecb6748a9483d9b027fb39ccce97
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -3185085053507068435
+    second: Big Green Alien_0
+  - first:
+      213: 4645285286386923616
+    second: Big Green Alien_1
+  - first:
+      213: 5807353120632193010
+    second: Big Green Alien_2
+  - first:
+      213: -6557269232173281157
+    second: Big Green Alien_3
+  - first:
+      213: 7314980673421805157
+    second: Big Green Alien_4
+  - first:
+      213: 5437705309978548068
+    second: Big Green Alien_5
+  - first:
+      213: -1327193164564043849
+    second: Big Green Alien_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +62,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +96,168 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Big Green Alien_0
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 841
+        width: 1268
+        height: 1160
+      alignment: 9
+      pivot: {x: 0.5886224, y: 0.48962086}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded1e46e40e4cc3d0800000000000000
+      internalID: -3185085053507068435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Green Alien_1
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 1793
+        width: 353
+        height: 255
+      alignment: 9
+      pivot: {x: 0.5341081, y: 0.5944317}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 068f07f2b5e577040800000000000000
+      internalID: 4645285286386923616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Green Alien_2
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1512
+        width: 341
+        height: 269
+      alignment: 9
+      pivot: {x: 0.57061607, y: 0.57459766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ffb98005ecd79050800000000000000
+      internalID: 5807353120632193010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Green Alien_3
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 1187
+        width: 297
+        height: 305
+      alignment: 9
+      pivot: {x: 0.59459054, y: 0.57895106}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7096bf0066eff4a0800000000000000
+      internalID: -6557269232173281157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Green Alien_4
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 849
+        width: 257
+        height: 289
+      alignment: 9
+      pivot: {x: 0.5156165, y: 0.66664374}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56687228a28048560800000000000000
+      internalID: 7314980673421805157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Green Alien_5
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 43
+        width: 758
+        height: 730
+      alignment: 9
+      pivot: {x: 0.4523485, y: 0.5109955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467d6825b2c967b40800000000000000
+      internalID: 5437705309978548068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Green Alien_6
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 67
+        width: 618
+        height: 727
+      alignment: 9
+      pivot: {x: 0.6493633, y: 0.46687773}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b765dd39dcd49de0800000000000000
+      internalID: -1327193164564043849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

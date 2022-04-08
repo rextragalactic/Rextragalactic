@@ -11,7 +11,9 @@ public class RedAlienEnemy : Enemy
     private float attackTime;
     public float attackSpeed;
 
-    
+
+
+
 
     // Start is called before the first frame update
     void Start()
@@ -22,7 +24,7 @@ public class RedAlienEnemy : Enemy
     // Update is called once per frame
     void Update()
     {
-        if(player != null)
+        /*if(player != null)
         {
             if (Vector2.Distance(transform.position, player.position) > stopDistance)
             {
@@ -37,14 +39,18 @@ public class RedAlienEnemy : Enemy
                     attackTime = Time.time + timeBetweenAttackts;
                 }
             }
-        }
-        
+        }*/
+
+       
+
     }
+
+
 
     // IEnumerator is used like a Funktion
     IEnumerator Attack()
     {
-        player.GetComponent<Player>().TakeDamage(damage); // The enemy will deal this amount of damage to the player
+        //player.GetComponent<Player>().TakeDamage(damage); // The enemy will deal this amount of damage to the player
 
         Vector2 originalPos = transform.position;
         Vector2 targetPos = player.position;
@@ -61,5 +67,21 @@ public class RedAlienEnemy : Enemy
 
 
     }
-    
+
+    // If the Player enters the Colider - Alien will see the player 
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+
+            transform.position = Vector2.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
+
+
+        }
+    }
+
+   
+
+
+
 }

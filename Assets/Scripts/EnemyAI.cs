@@ -10,6 +10,11 @@ public class EnemyAI : MonoBehaviour
     [SerializeField]
     private float attackDamage = 10f;
 
+    [SerializeField]
+    private float attackSpeed = 1f;
+
+    private float canAttack;
+
     private Transform target;
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -38,7 +43,15 @@ public class EnemyAI : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            other.gameObject.GetComponent<PlayerHealth>().UpdateHealth(-attackDamage);
+            if (attackSpeed <= canAttack)
+            {
+                other.gameObject.GetComponent<PlayerHealth>().UpdateHealth(-attackDamage);
+                canAttack = 0f;
+            }
+            else
+            {
+                canAttack += Time.deltaTime;
+            }
         }
     }
 

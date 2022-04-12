@@ -54,13 +54,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets/Scripts/RedAlienEnemy.cs" />
-    <Compile Include="Assets/Scripts/Weapon.cs" />
     <Compile Include="Assets/Scripts/Enemy.cs" />
     <Compile Include="Assets/Scripts/Player.cs" />
     <Compile Include="Assets/Scripts/Fireball.cs" />
     <Compile Include="Assets/Scripts/EnemyAI.cs" />
-    <Compile Include="Assets/Scripts/CameraFollow.cs" />
     <Compile Include="Assets/Scripts/PlayerHealth.cs" />
+    <Compile Include="Assets/Scripts/CameraFollow.cs" />
+    <Compile Include="Assets/Scripts/Weapon.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

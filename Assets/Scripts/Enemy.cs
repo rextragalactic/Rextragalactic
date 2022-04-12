@@ -17,22 +17,16 @@ public class Enemy : MonoBehaviour
 
     public int damage;
 
-    public Rigidbody2D EnemyRigidbody2D;
-
-  
 
     void Start()
     {
-        //EnemyRigidbody2D = GetComponent<Rigidbody2D>();
-
-        player = GameObject.FindGameObjectWithTag("Player").transform;
+       // player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
     // Update is called once per frame
     void Update()
     {
-        Vector3 direction = player.position - transform.position;
-        float angle = Mathf.Atan2(direction.y, direction.x);
+        
     }
 
     public void TakeDamage(int damageAmount)

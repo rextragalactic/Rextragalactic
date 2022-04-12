@@ -10,9 +10,7 @@ public class Player : MonoBehaviour
     private Rigidbody2D rb;
     private Animator animator;
 
-    private float health = 100;
-
-    //public float health;
+    public float health;
 
     private Vector2 moveAmount;
 

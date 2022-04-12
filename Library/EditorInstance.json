@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
 	"process_id" : 32049,
+=======
+	"process_id" : 16331,
+>>>>>>> parent of 7a6dd55 (help me please)
 	"version" : "2021.1.17f1",
 	"app_path" : "/Applications/Unity/Hub/Editor/2021.1.17f1/Unity.app",
 	"app_contents_path" : "/Applications/Unity/Hub/Editor/2021.1.17f1/Unity.app/Contents"

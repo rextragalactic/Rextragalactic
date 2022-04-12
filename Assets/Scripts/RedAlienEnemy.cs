@@ -3,7 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class RedAlienEnemy : Enemy
+
 {
+
+   
     // 1. Follow Plaer Around
 
     public float stopDistance; // This is for the Enemy to follow the Player ti a specific distance
@@ -24,7 +27,7 @@ public class RedAlienEnemy : Enemy
     // Update is called once per frame
     void Update()
     {
-        /*if(player != null)
+        if(player != null)
         {
             if (Vector2.Distance(transform.position, player.position) > stopDistance)
             {
@@ -39,7 +42,7 @@ public class RedAlienEnemy : Enemy
                     attackTime = Time.time + timeBetweenAttackts;
                 }
             }
-        }*/
+        }
 
        
 
@@ -50,7 +53,7 @@ public class RedAlienEnemy : Enemy
     // IEnumerator is used like a Funktion
     IEnumerator Attack()
     {
-        //player.GetComponent<Player>().TakeDamage(damage); // The enemy will deal this amount of damage to the player
+        player.GetComponent<Player>().TakeDamage(damage); // The enemy will deal this amount of damage to the player
 
         Vector2 originalPos = transform.position;
         Vector2 targetPos = player.position;

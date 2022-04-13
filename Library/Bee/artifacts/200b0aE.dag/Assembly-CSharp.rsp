@@ -331,6 +331,7 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/EnemyPatrol.cs"
 "Assets/Scripts/CameraFollow.cs"
 "Assets/Scripts/Enemy.cs"
 "Assets/Scripts/EnemyAI.cs"
@@ -339,6 +340,7 @@
 "Assets/Scripts/PlayerHealth.cs"
 "Assets/Scripts/RedAlienEnemy.cs"
 "Assets/Scripts/Weapon.cs"
+"Assets/WayPointHolder.cs"
 -langversion:8.0
 
 /deterministic

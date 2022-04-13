@@ -1,0 +1,1616 @@
+Using pre-set license
+Pro License: NO
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.1.17f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/rex/Unity Projekte/Rextragalactic
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58720
+Successfully changed project path to: /Users/rex/Unity Projekte/Rextragalactic
+/Users/rex/Unity Projekte/Rextragalactic
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 41.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.17f1 (03b40fe07a36)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.1.17f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/rex/Unity Projekte/Rextragalactic/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+2022-04-12 11:31:06.212 Unity[32524:1099951] (null) preferred device: Apple M1 Max (high power)
+2022-04-12 11:31:06.212 Unity[32524:1099951] Metal devices available: 1
+2022-04-12 11:31:06.212 Unity[32524:1099951] 0: Apple M1 Max (high power)
+2022-04-12 11:31:06.216 Unity[32524:1099951] Using device Apple M1 Max (high power)
+Initializing Metal device caps: Apple M1 Max
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.1.17f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.1.17f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.1.17f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56524
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.1.17f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.1.17f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002271 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 41.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.139 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2140ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (953ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (202ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (584ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (42ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (389ms)
+				ProcessInitializeOnLoadMethodAttributes (129ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003622 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 41.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.444 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2445ms)
+		BeginReloadAssembly (260ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (33ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (2088ms)
+			LoadAssemblies (189ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (363ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (1202ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (41ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (985ms)
+				ProcessInitializeOnLoadMethodAttributes (65ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (37ms)
+Platform modules already initialized, skipping
+Script is not up to date after domain reload: guid(f4485c91e5ee04b8bb96d41de6f27139) path("Assets/Scripts/RedAlienEnemy.cs") state(2)
+Script is not up to date after domain reload: guid(602f74cbbbd80034b96f88091a8e7c1d) path("Assets/CodeMonkey/Utils/Button_UI.cs") state(2)
+Script is not up to date after domain reload: guid(91ce8dcaef210db41a183b4558f16bb2) path("Assets/CodeMonkey/Utils/World_Mesh.cs") state(2)
+Script is not up to date after domain reload: guid(8ba4b604c0e9db241bb3d130165415cd) path("Assets/CodeMonkey/Utils/UI_TextComplex.cs") state(2)
+Script is not up to date after domain reload: guid(4771330f098d1db4898ad07204154d04) path("Assets/CodeMonkey/Utils/Button_Sprite.cs") state(2)
+Script is not up to date after domain reload: guid(d2de9ebc1890e4862a098a68a48f3bc6) path("Assets/Scripts/LastAIScript.cs") state(2)
+Script is not up to date after domain reload: guid(31e947e7eb3216d40b72c592fa6847a3) path("Assets/CodeMonkey/MonoBehaviours/CameraFollowSetup.cs") state(2)
+Script is not up to date after domain reload: guid(f73a3eab49f30d344a207d7d3d931d98) path("Assets/CodeMonkey/MonoBehaviours/CameraFollow.cs") state(2)
+Script is not up to date after domain reload: guid(eda7ff5f6e8175c4da119ea9ed256f6d) path("Assets/CodeMonkey/Assets.cs") state(2)
+Script is not up to date after domain reload: guid(1460472c3006fb44daea959dda2c4d81) path("Assets/CodeMonkey/Utils/World_Sprite.cs") state(2)
+Script is not up to date after domain reload: guid(edc2020a01573471ab33e6184dd439ef) path("Assets/Scripts/Enemy.cs") state(2)
+Script is not up to date after domain reload: guid(cc20fdc736e8c9442b35e4bcc04c596c) path("Assets/CodeMonkey/Utils/World_Bar.cs") state(2)
+Script is not up to date after domain reload: guid(ce2355f335dcae94abba806390b1bd76) path("Assets/CodeMonkey/Utils/UtilsClass.cs") state(2)
+Script is not up to date after domain reload: guid(b330b302c69005c4f98a928f7d71b877) path("Assets/CodeMonkey/MonoBehaviours/PositionRendererSorter.cs") state(2)
+Script is not up to date after domain reload: guid(4575ee08c655343ea92a75799e90007d) path("Assets/Scripts/Player.cs") state(2)
+Script is not up to date after domain reload: guid(ef6a5e3fe69f64dc1ab6682f43eedd29) path("Assets/Scripts/EnemyPathfindingMovement.cs") state(2)
+Script is not up to date after domain reload: guid(6aefec14fe65f41dbbe80998abf3685d) path("Assets/Scripts/PathNode.cs") state(2)
+Script is not up to date after domain reload: guid(7eacfbf662ad34e46932f36084c15e11) path("Assets/CodeMonkey/Utils/FunctionUpdater.cs") state(2)
+Script is not up to date after domain reload: guid(9c8b5f0217e73fa47827cf77f22c2f8d) path("Assets/CodeMonkey/Utils/FunctionTimer.cs") state(2)
+Script is not up to date after domain reload: guid(1dfbd74342db94bc3bb4a18826e9bed0) path("Assets/Scripts/Enemy_AI.cs") state(2)
+Script is not up to date after domain reload: guid(49ffd25ff4b0ca3429d1b1e2dc0ff037) path("Assets/CodeMonkey/Utils/UI_Bar.cs") state(2)
+Script is not up to date after domain reload: guid(663fbb6dd4de1495c886bd3c4fe5f4c4) path("Assets/Scripts/EnemyPathfinding.cs") state(2)
+Script is not up to date after domain reload: guid(cb3e855e7fda2944b91078893f9e8fd8) path("Assets/CodeMonkey/MonoBehaviours/ComponentActions.cs") state(2)
+Script is not up to date after domain reload: guid(bdb3ee83767704668a9828042c280e49) path("Assets/Scripts/EnemyKI.cs") state(2)
+Script is not up to date after domain reload: guid(d0052e8fbe8cbcd4d8c48038d364333b) path("Assets/CodeMonkey/Utils/UI_Sprite.cs") state(2)
+Script is not up to date after domain reload: guid(c561aaa3f66de4257a206d418fc006b8) path("Assets/Scripts/EnemyPath.cs") state(2)
+Script is not up to date after domain reload: guid(6e114fb013fdf4db2895956d47c73dd3) path("Assets/Scripts/WayPoints.cs") state(2)
+Script is not up to date after domain reload: guid(9cf7b152002fbca49b6a1a4623f200a7) path("Assets/CodeMonkey/Utils/UI_BarMultiple.cs") state(2)
+Script is not up to date after domain reload: guid(b711d30267c7d4ac6b7922bedee95793) path("Assets/Scripts/Grid.cs") state(2)
+Script is not up to date after domain reload: guid(d6005648898e7f647ad2202fe256c311) path("Assets/CodeMonkey/CMDebug.cs") state(2)
+Script is not up to date after domain reload: guid(f522bd6f08a5c984a9512bb60ebc1818) path("Assets/CodeMonkey/Utils/FunctionPeriodic.cs") state(2)
+Script is not up to date after domain reload: guid(416d0f5b582f542bda6c4876f4367b68) path("Assets/Scripts/TestingGridClass.cs") state(2)
+========================================================================
+Worker process is ready to serve import requests
+Script is not up to date after domain reload: guid(f4485c91e5ee04b8bb96d41de6f27139) path("Assets/Scripts/RedAlienEnemy.cs") state(2)
+Script is not up to date after domain reload: guid(602f74cbbbd80034b96f88091a8e7c1d) path("Assets/CodeMonkey/Utils/Button_UI.cs") state(2)
+Script is not up to date after domain reload: guid(91ce8dcaef210db41a183b4558f16bb2) path("Assets/CodeMonkey/Utils/World_Mesh.cs") state(2)
+Script is not up to date after domain reload: guid(8ba4b604c0e9db241bb3d130165415cd) path("Assets/CodeMonkey/Utils/UI_TextComplex.cs") state(2)
+Script is not up to date after domain reload: guid(4771330f098d1db4898ad07204154d04) path("Assets/CodeMonkey/Utils/Button_Sprite.cs") state(2)
+Script is not up to date after domain reload: guid(d2de9ebc1890e4862a098a68a48f3bc6) path("Assets/Scripts/LastAIScript.cs") state(2)
+Script is not up to date after domain reload: guid(31e947e7eb3216d40b72c592fa6847a3) path("Assets/CodeMonkey/MonoBehaviours/CameraFollowSetup.cs") state(2)
+Script is not up to date after domain reload: guid(f73a3eab49f30d344a207d7d3d931d98) path("Assets/CodeMonkey/MonoBehaviours/CameraFollow.cs") state(2)
+Script is not up to date after domain reload: guid(eda7ff5f6e8175c4da119ea9ed256f6d) path("Assets/CodeMonkey/Assets.cs") state(2)
+Script is not up to date after domain reload: guid(1460472c3006fb44daea959dda2c4d81) path("Assets/CodeMonkey/Utils/World_Sprite.cs") state(2)
+Script is not up to date after domain reload: guid(edc2020a01573471ab33e6184dd439ef) path("Assets/Scripts/Enemy.cs") state(2)
+Script is not up to date after domain reload: guid(cc20fdc736e8c9442b35e4bcc04c596c) path("Assets/CodeMonkey/Utils/World_Bar.cs") state(2)
+Script is not up to date after domain reload: guid(ce2355f335dcae94abba806390b1bd76) path("Assets/CodeMonkey/Utils/UtilsClass.cs") state(2)
+Script is not up to date after domain reload: guid(b330b302c69005c4f98a928f7d71b877) path("Assets/CodeMonkey/MonoBehaviours/PositionRendererSorter.cs") state(2)
+Script is not up to date after domain reload: guid(4575ee08c655343ea92a75799e90007d) path("Assets/Scripts/Player.cs") state(2)
+Script is not up to date after domain reload: guid(ef6a5e3fe69f64dc1ab6682f43eedd29) path("Assets/Scripts/EnemyPathfindingMovement.cs") state(2)
+Script is not up to date after domain reload: guid(6aefec14fe65f41dbbe80998abf3685d) path("Assets/Scripts/PathNode.cs") state(2)
+Script is not up to date after domain reload: guid(7eacfbf662ad34e46932f36084c15e11) path("Assets/CodeMonkey/Utils/FunctionUpdater.cs") state(2)
+Script is not up to date after domain reload: guid(9c8b5f0217e73fa47827cf77f22c2f8d) path("Assets/CodeMonkey/Utils/FunctionTimer.cs") state(2)
+Script is not up to date after domain reload: guid(1dfbd74342db94bc3bb4a18826e9bed0) path("Assets/Scripts/Enemy_AI.cs") state(2)
+Script is not up to date after domain reload: guid(49ffd25ff4b0ca3429d1b1e2dc0ff037) path("Assets/CodeMonkey/Utils/UI_Bar.cs") state(2)
+Script is not up to date after domain reload: guid(663fbb6dd4de1495c886bd3c4fe5f4c4) path("Assets/Scripts/EnemyPathfinding.cs") state(2)
+Script is not up to date after domain reload: guid(cb3e855e7fda2944b91078893f9e8fd8) path("Assets/CodeMonkey/MonoBehaviours/ComponentActions.cs") state(2)
+Script is not up to date after domain reload: guid(bdb3ee83767704668a9828042c280e49) path("Assets/Scripts/EnemyKI.cs") state(2)
+Script is not up to date after domain reload: guid(d0052e8fbe8cbcd4d8c48038d364333b) path("Assets/CodeMonkey/Utils/UI_Sprite.cs") state(2)
+Script is not up to date after domain reload: guid(c561aaa3f66de4257a206d418fc006b8) path("Assets/Scripts/EnemyPath.cs") state(2)
+Script is not up to date after domain reload: guid(6e114fb013fdf4db2895956d47c73dd3) path("Assets/Scripts/WayPoints.cs") state(2)
+Script is not up to date after domain reload: guid(9cf7b152002fbca49b6a1a4623f200a7) path("Assets/CodeMonkey/Utils/UI_BarMultiple.cs") state(2)
+Script is not up to date after domain reload: guid(b711d30267c7d4ac6b7922bedee95793) path("Assets/Scripts/Grid.cs") state(2)
+Script is not up to date after domain reload: guid(d6005648898e7f647ad2202fe256c311) path("Assets/CodeMonkey/CMDebug.cs") state(2)
+Script is not up to date after domain reload: guid(f522bd6f08a5c984a9512bb60ebc1818) path("Assets/CodeMonkey/Utils/FunctionPeriodic.cs") state(2)
+Script is not up to date after domain reload: guid(416d0f5b582f542bda6c4876f4367b68) path("Assets/Scripts/TestingGridClass.cs") state(2)
+Launching external process: /Applications/Unity/Hub/Editor/2021.1.17f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2210 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 201.8 MB.
+System memory in use after: 201.9 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2663.
+Total: 2.792000 ms (FindLiveObjects: 0.133000 ms CreateObjectMapping: 0.042666 ms MarkObjects: 2.536333 ms  DeleteObjects: 0.079084 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/Test2.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test2.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+ #5 ImportAsset(core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::__1::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
+ #6 AssetImportWorker::Import(AssetResolver&, WorkerImportPayload const&, WorkerImportResponse&, IImportProgress*, bool*)
+ #7 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_9>(AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_9&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
+ #8 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
+ #9 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
+ #10 asio::detail::task_io_service::run(std::__1::error_code&)
+ #11 IOService::Run(bool)
+ #12 RunAssetImporterV2()
+ #13 Application::InitializeProject()
+ #14 -[EditorApplication applicationDidFinishLaunching:]
+ #15 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #16 ___CFXRegistrationPost_block_invoke
+ #17 _CFXRegistrationPost
+ #18 _CFXNotificationPost
+ #19 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #20 -[NSApplication _postDidFinishNotification]
+ #21 -[NSApplication _sendFinishLaunchingNotification]
+ #22 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #23 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #24 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #25 _NSAppleEventManagerGenericHandler
+ #26 _AppleEventsCheckInAppWithBlock
+ #27 _AppleEventsCheckInAppWithBlock
+ #28 aeProcessAppleEvent
+ #29 AEProcessAppleEvent
+ #30 _DPSNextEvent
+ #31 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #32 -[NSApplication run]
+ #33 NSApplicationMain
+ #34 EditorMain(int, char const**)
+ #35 main
+ #36 ???
+ #37 ???
+
+Requesting import of Guid(2cda990e2423bbf4892e6590ba056729) Importer(-1,00000000000000000000000000000000), Assets/Scenes/Test2.unity from editor
+Resuming Guid(2cda990e2423bbf4892e6590ba056729) Importer(-1,00000000000000000000000000000000) -> 3288727fcb53d1349ff6ecda85134449 
+Assertion failed on expression: 'unsafeDependencies != nullptr'
+
+Assertion failed on expression: 'unsafeDependencies != nullptr'
+
+Assertion failed on expression: 'unsafeMetaInfo != nullptr'
+
+Assertion failed on expression: 'safeMetaInfo != nullptr'
+
+Assertion failed on expression: 'state.state == kUpToDate'
+
+Assertion failed on expression: 'state.artifactID == result'
+
+Diagnostics callstack to track who triggered the sub-import:
+ #5 ImportToObjects(core::basic_string<char, core::StringStorageDefault<char> > const&, core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::__1::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
+ #6 ImportAsset(core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::__1::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
+ #7 AssetImportWorker::Import(AssetResolver&, WorkerImportPayload const&, WorkerImportResponse&, IImportProgress*, bool*)
+ #8 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_9>(AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_9&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
+ #9 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
+ #10 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
+ #11 asio::detail::task_io_service::run(std::__1::error_code&)
+ #12 IOService::Run(bool)
+ #13 RunAssetImporterV2()
+ #14 Application::InitializeProject()
+ #15 -[EditorApplication applicationDidFinishLaunching:]
+ #16 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #17 ___CFXRegistrationPost_block_invoke
+ #18 _CFXRegistrationPost
+ #19 _CFXNotificationPost
+ #20 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #21 -[NSApplication _postDidFinishNotification]
+ #22 -[NSApplication _sendFinishLaunchingNotification]
+ #23 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #24 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #25 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #26 _NSAppleEventManagerGenericHandler
+ #27 _AppleEventsCheckInAppWithBlock
+ #28 _AppleEventsCheckInAppWithBlock
+ #29 aeProcessAppleEvent
+ #30 AEProcessAppleEvent
+ #31 _DPSNextEvent
+ #32 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #33 -[NSApplication run]
+ #34 NSApplicationMain
+ #35 EditorMain(int, char const**)
+ #36 main
+ #37 ???
+ #38 ???
+
+Requesting import of Guid(2cda990e2423bbf4892e6590ba056729) Importer(-1,00000000000000000000000000000000), Assets/Scenes/Test2.unity from editor
+Resuming Guid(2cda990e2423bbf4892e6590ba056729) Importer(-1,00000000000000000000000000000000) -> 3288727fcb53d1349ff6ecda85134449 
+Assertion failed on expression: 'unsafeDependencies != nullptr'
+
+Assertion failed on expression: 'unsafeDependencies != nullptr'
+
+Assertion failed on expression: 'unsafeMetaInfo != nullptr'
+
+Assertion failed on expression: 'safeMetaInfo != nullptr'
+
+Assertion failed on expression: 'state.state == kUpToDate'
+
+Assertion failed on expression: 'state.artifactID == result'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.216052 seconds  code(4) message(Build asset version error: assets/scenes/test2.unity in SourceAssetDB has modification time of '2022-04-12T09:01:02Z' while content on disk has modification time of '0001-01-01T00:00:00Z')
+  ERROR: Build asset version error: assets/scenes/test2.unity in SourceAssetDB has modification time of '2022-04-12T09:01:02Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+========================================================================
+Received Import Request.
+  Time since last request: 47.263598 seconds.
+  path: Assets/Scenes/Test2.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test2.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+ #5 ImportAsset(core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::__1::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
+ #6 AssetImportWorker::Import(AssetResolver&, WorkerImportPayload const&, WorkerImportResponse&, IImportProgress*, bool*)
+ #7 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_9>(AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_9&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
+ #8 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
+ #9 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
+ #10 asio::detail::task_io_service::run(std::__1::error_code&)
+ #11 IOService::Run(bool)
+ #12 RunAssetImporterV2()
+ #13 Application::InitializeProject()
+ #14 -[EditorApplication applicationDidFinishLaunching:]
+ #15 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #16 ___CFXRegistrationPost_block_invoke
+ #17 _CFXRegistrationPost
+ #18 _CFXNotificationPost
+ #19 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #20 -[NSApplication _postDidFinishNotification]
+ #21 -[NSApplication _sendFinishLaunchingNotification]
+ #22 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #23 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #24 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #25 _NSAppleEventManagerGenericHandler
+ #26 _AppleEventsCheckInAppWithBlock
+ #27 _AppleEventsCheckInAppWithBlock
+ #28 aeProcessAppleEvent
+ #29 AEProcessAppleEvent
+ #30 _DPSNextEvent
+ #31 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #32 -[NSApplication run]
+ #33 NSApplicationMain
+ #34 EditorMain(int, char const**)
+ #35 main
+ #36 ???
+ #37 ???
+
+Requesting import of Guid(2cda990e2423bbf4892e6590ba056729) Importer(-1,00000000000000000000000000000000), Assets/Scenes/Test2.unity from editor
+Resuming Guid(2cda990e2423bbf4892e6590ba056729) Importer(-1,00000000000000000000000000000000) -> 3288727fcb53d1349ff6ecda85134449 
+Assertion failed on expression: 'unsafeDependencies != nullptr'
+
+Assertion failed on expression: 'unsafeDependencies != nullptr'
+
+Assertion failed on expression: 'unsafeMetaInfo != nullptr'
+
+Assertion failed on expression: 'safeMetaInfo != nullptr'
+
+Assertion failed on expression: 'state.state == kUpToDate'
+
+Assertion failed on expression: 'state.artifactID == result'
+
+Diagnostics callstack to track who triggered the sub-import:
+ #5 ImportToObjects(core::basic_string<char, core::StringStorageDefault<char> > const&, core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::__1::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
+ #6 ImportAsset(core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::__1::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
+ #7 AssetImportWorker::Import(AssetResolver&, WorkerImportPayload const&, WorkerImportResponse&, IImportProgress*, bool*)
+ #8 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_9>(AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_9&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
+ #9 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
+ #10 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
+ #11 asio::detail::task_io_service::run(std::__1::error_code&)
+ #12 IOService::Run(bool)
+ #13 RunAssetImporterV2()
+ #14 Application::InitializeProject()
+ #15 -[EditorApplication applicationDidFinishLaunching:]
+ #16 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #17 ___CFXRegistrationPost_block_invoke
+ #18 _CFXRegistrationPost
+ #19 _CFXNotificationPost
+ #20 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #21 -[NSApplication _postDidFinishNotification]
+ #22 -[NSApplication _sendFinishLaunchingNotification]
+ #23 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #24 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #25 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #26 _NSAppleEventManagerGenericHandler
+ #27 _AppleEventsCheckInAppWithBlock
+ #28 _AppleEventsCheckInAppWithBlock
+ #29 aeProcessAppleEvent
+ #30 AEProcessAppleEvent
+ #31 _DPSNextEvent
+ #32 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #33 -[NSApplication run]
+ #34 NSApplicationMain
+ #35 EditorMain(int, char const**)
+ #36 main
+ #37 ???
+ #38 ???
+
+Requesting import of Guid(2cda990e2423bbf4892e6590ba056729) Importer(-1,00000000000000000000000000000000), Assets/Scenes/Test2.unity from editor
+Resuming Guid(2cda990e2423bbf4892e6590ba056729) Importer(-1,00000000000000000000000000000000) -> 3288727fcb53d1349ff6ecda85134449 
+Assertion failed on expression: 'unsafeDependencies != nullptr'
+
+Assertion failed on expression: 'unsafeDependencies != nullptr'
+
+Assertion failed on expression: 'unsafeMetaInfo != nullptr'
+
+Assertion failed on expression: 'safeMetaInfo != nullptr'
+
+Assertion failed on expression: 'state.state == kUpToDate'
+
+Assertion failed on expression: 'state.artifactID == result'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.011908 seconds  code(4) message(Build asset version error: assets/scenes/test2.unity in SourceAssetDB has modification time of '2022-04-12T09:01:02Z' while content on disk has modification time of '0001-01-01T00:00:00Z')
+  ERROR: Build asset version error: assets/scenes/test2.unity in SourceAssetDB has modification time of '2022-04-12T09:01:02Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(f4485c91e5ee04b8bb96d41de6f27139) path("Assets/Scripts/RedAlienEnemy.cs") state(2)
+Script is not up to date after domain reload: guid(602f74cbbbd80034b96f88091a8e7c1d) path("Assets/CodeMonkey/Utils/Button_UI.cs") state(2)
+Script is not up to date after domain reload: guid(91ce8dcaef210db41a183b4558f16bb2) path("Assets/CodeMonkey/Utils/World_Mesh.cs") state(2)
+Script is not up to date after domain reload: guid(8ba4b604c0e9db241bb3d130165415cd) path("Assets/CodeMonkey/Utils/UI_TextComplex.cs") state(2)
+Script is not up to date after domain reload: guid(4771330f098d1db4898ad07204154d04) path("Assets/CodeMonkey/Utils/Button_Sprite.cs") state(2)
+Script is not up to date after domain reload: guid(d2de9ebc1890e4862a098a68a48f3bc6) path("Assets/Scripts/LastAIScript.cs") state(2)
+Script is not up to date after domain reload: guid(31e947e7eb3216d40b72c592fa6847a3) path("Assets/CodeMonkey/MonoBehaviours/CameraFollowSetup.cs") state(2)
+Script is not up to date after domain reload: guid(f73a3eab49f30d344a207d7d3d931d98) path("Assets/CodeMonkey/MonoBehaviours/CameraFollow.cs") state(2)
+Script is not up to date after domain reload: guid(eda7ff5f6e8175c4da119ea9ed256f6d) path("Assets/CodeMonkey/Assets.cs") state(2)
+Script is not up to date after domain reload: guid(1460472c3006fb44daea959dda2c4d81) path("Assets/CodeMonkey/Utils/World_Sprite.cs") state(2)
+Script is not up to date after domain reload: guid(edc2020a01573471ab33e6184dd439ef) path("Assets/Scripts/Enemy.cs") state(2)
+Script is not up to date after domain reload: guid(cc20fdc736e8c9442b35e4bcc04c596c) path("Assets/CodeMonkey/Utils/World_Bar.cs") state(2)
+Script is not up to date after domain reload: guid(ce2355f335dcae94abba806390b1bd76) path("Assets/CodeMonkey/Utils/UtilsClass.cs") state(2)
+Script is not up to date after domain reload: guid(b330b302c69005c4f98a928f7d71b877) path("Assets/CodeMonkey/MonoBehaviours/PositionRendererSorter.cs") state(2)
+Script is not up to date after domain reload: guid(4575ee08c655343ea92a75799e90007d) path("Assets/Scripts/Player.cs") state(2)
+Script is not up to date after domain reload: guid(ef6a5e3fe69f64dc1ab6682f43eedd29) path("Assets/Scripts/EnemyPathfindingMovement.cs") state(2)
+Script is not up to date after domain reload: guid(6aefec14fe65f41dbbe80998abf3685d) path("Assets/Scripts/PathNode.cs") state(2)
+Script is not up to date after domain reload: guid(7eacfbf662ad34e46932f36084c15e11) path("Assets/CodeMonkey/Utils/FunctionUpdater.cs") state(2)
+Script is not up to date after domain reload: guid(9c8b5f0217e73fa47827cf77f22c2f8d) path("Assets/CodeMonkey/Utils/FunctionTimer.cs") state(2)
+Script is not up to date after domain reload: guid(1dfbd74342db94bc3bb4a18826e9bed0) path("Assets/Scripts/Enemy_AI.cs") state(2)
+Script is not up to date after domain reload: guid(49ffd25ff4b0ca3429d1b1e2dc0ff037) path("Assets/CodeMonkey/Utils/UI_Bar.cs") state(2)
+Script is not up to date after domain reload: guid(663fbb6dd4de1495c886bd3c4fe5f4c4) path("Assets/Scripts/EnemyPathfinding.cs") state(2)
+Script is not up to date after domain reload: guid(cb3e855e7fda2944b91078893f9e8fd8) path("Assets/CodeMonkey/MonoBehaviours/ComponentActions.cs") state(2)
+Script is not up to date after domain reload: guid(bdb3ee83767704668a9828042c280e49) path("Assets/Scripts/EnemyKI.cs") state(2)
+Script is not up to date after domain reload: guid(d0052e8fbe8cbcd4d8c48038d364333b) path("Assets/CodeMonkey/Utils/UI_Sprite.cs") state(2)
+Script is not up to date after domain reload: guid(c561aaa3f66de4257a206d418fc006b8) path("Assets/Scripts/EnemyPath.cs") state(2)
+Script is not up to date after domain reload: guid(6e114fb013fdf4db2895956d47c73dd3) path("Assets/Scripts/WayPoints.cs") state(2)
+Script is not up to date after domain reload: guid(9cf7b152002fbca49b6a1a4623f200a7) path("Assets/CodeMonkey/Utils/UI_BarMultiple.cs") state(2)
+Script is not up to date after domain reload: guid(b711d30267c7d4ac6b7922bedee95793) path("Assets/Scripts/Grid.cs") state(2)
+Script is not up to date after domain reload: guid(d6005648898e7f647ad2202fe256c311) path("Assets/CodeMonkey/CMDebug.cs") state(2)
+Script is not up to date after domain reload: guid(f522bd6f08a5c984a9512bb60ebc1818) path("Assets/CodeMonkey/Utils/FunctionPeriodic.cs") state(2)
+Script is not up to date after domain reload: guid(416d0f5b582f542bda6c4876f4367b68) path("Assets/Scripts/TestingGridClass.cs") state(2)
+Registering precompiled user dll's ...
+Registered in 0.001296 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.259 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2260ms)
+		BeginReloadAssembly (208ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (37ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (69ms)
+		EndReloadAssembly (1957ms)
+			LoadAssemblies (172ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (354ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (1104ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (961ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (46ms)
+Platform modules already initialized, skipping
+Script is not up to date after domain reload: guid(f4485c91e5ee04b8bb96d41de6f27139) path("Assets/Scripts/RedAlienEnemy.cs") state(2)
+Script is not up to date after domain reload: guid(602f74cbbbd80034b96f88091a8e7c1d) path("Assets/CodeMonkey/Utils/Button_UI.cs") state(2)
+Script is not up to date after domain reload: guid(91ce8dcaef210db41a183b4558f16bb2) path("Assets/CodeMonkey/Utils/World_Mesh.cs") state(2)
+Script is not up to date after domain reload: guid(8ba4b604c0e9db241bb3d130165415cd) path("Assets/CodeMonkey/Utils/UI_TextComplex.cs") state(2)
+Script is not up to date after domain reload: guid(4771330f098d1db4898ad07204154d04) path("Assets/CodeMonkey/Utils/Button_Sprite.cs") state(2)
+Script is not up to date after domain reload: guid(d2de9ebc1890e4862a098a68a48f3bc6) path("Assets/Scripts/LastAIScript.cs") state(2)
+Script is not up to date after domain reload: guid(31e947e7eb3216d40b72c592fa6847a3) path("Assets/CodeMonkey/MonoBehaviours/CameraFollowSetup.cs") state(2)
+Script is not up to date after domain reload: guid(f73a3eab49f30d344a207d7d3d931d98) path("Assets/CodeMonkey/MonoBehaviours/CameraFollow.cs") state(2)
+Script is not up to date after domain reload: guid(eda7ff5f6e8175c4da119ea9ed256f6d) path("Assets/CodeMonkey/Assets.cs") state(2)
+Script is not up to date after domain reload: guid(1460472c3006fb44daea959dda2c4d81) path("Assets/CodeMonkey/Utils/World_Sprite.cs") state(2)
+Script is not up to date after domain reload: guid(edc2020a01573471ab33e6184dd439ef) path("Assets/Scripts/Enemy.cs") state(2)
+Script is not up to date after domain reload: guid(cc20fdc736e8c9442b35e4bcc04c596c) path("Assets/CodeMonkey/Utils/World_Bar.cs") state(2)
+Script is not up to date after domain reload: guid(ce2355f335dcae94abba806390b1bd76) path("Assets/CodeMonkey/Utils/UtilsClass.cs") state(2)
+Script is not up to date after domain reload: guid(b330b302c69005c4f98a928f7d71b877) path("Assets/CodeMonkey/MonoBehaviours/PositionRendererSorter.cs") state(2)
+Script is not up to date after domain reload: guid(4575ee08c655343ea92a75799e90007d) path("Assets/Scripts/Player.cs") state(2)
+Script is not up to date after domain reload: guid(ef6a5e3fe69f64dc1ab6682f43eedd29) path("Assets/Scripts/EnemyPathfindingMovement.cs") state(2)
+Script is not up to date after domain reload: guid(6aefec14fe65f41dbbe80998abf3685d) path("Assets/Scripts/PathNode.cs") state(2)
+Script is not up to date after domain reload: guid(7eacfbf662ad34e46932f36084c15e11) path("Assets/CodeMonkey/Utils/FunctionUpdater.cs") state(2)
+Script is not up to date after domain reload: guid(9c8b5f0217e73fa47827cf77f22c2f8d) path("Assets/CodeMonkey/Utils/FunctionTimer.cs") state(2)
+Script is not up to date after domain reload: guid(1dfbd74342db94bc3bb4a18826e9bed0) path("Assets/Scripts/Enemy_AI.cs") state(2)
+Script is not up to date after domain reload: guid(49ffd25ff4b0ca3429d1b1e2dc0ff037) path("Assets/CodeMonkey/Utils/UI_Bar.cs") state(2)
+Script is not up to date after domain reload: guid(663fbb6dd4de1495c886bd3c4fe5f4c4) path("Assets/Scripts/EnemyPathfinding.cs") state(2)
+Script is not up to date after domain reload: guid(cb3e855e7fda2944b91078893f9e8fd8) path("Assets/CodeMonkey/MonoBehaviours/ComponentActions.cs") state(2)
+Script is not up to date after domain reload: guid(bdb3ee83767704668a9828042c280e49) path("Assets/Scripts/EnemyKI.cs") state(2)
+Script is not up to date after domain reload: guid(d0052e8fbe8cbcd4d8c48038d364333b) path("Assets/CodeMonkey/Utils/UI_Sprite.cs") state(2)
+Script is not up to date after domain reload: guid(c561aaa3f66de4257a206d418fc006b8) path("Assets/Scripts/EnemyPath.cs") state(2)
+Script is not up to date after domain reload: guid(6e114fb013fdf4db2895956d47c73dd3) path("Assets/Scripts/WayPoints.cs") state(2)
+Script is not up to date after domain reload: guid(9cf7b152002fbca49b6a1a4623f200a7) path("Assets/CodeMonkey/Utils/UI_BarMultiple.cs") state(2)
+Script is not up to date after domain reload: guid(b711d30267c7d4ac6b7922bedee95793) path("Assets/Scripts/Grid.cs") state(2)
+Script is not up to date after domain reload: guid(d6005648898e7f647ad2202fe256c311) path("Assets/CodeMonkey/CMDebug.cs") state(2)
+Script is not up to date after domain reload: guid(f522bd6f08a5c984a9512bb60ebc1818) path("Assets/CodeMonkey/Utils/FunctionPeriodic.cs") state(2)
+Script is not up to date after domain reload: guid(416d0f5b582f542bda6c4876f4367b68) path("Assets/Scripts/TestingGridClass.cs") state(2)
+Refreshing native plugins compatible for Editor in 0.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2200 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.9 MB.
+System memory in use after: 206.0 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2666.
+Total: 2.531833 ms (FindLiveObjects: 0.076625 ms CreateObjectMapping: 0.096375 ms MarkObjects: 2.342000 ms  DeleteObjects: 0.015833 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3.810511 seconds.
+  path: Assets/Scenes/Test2.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test2.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+ #5 ImportAsset(core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::__1::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
+ #6 AssetImportWorker::Import(AssetResolver&, WorkerImportPayload const&, WorkerImportResponse&, IImportProgress*, bool*)
+ #7 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_9>(AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_9&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
+ #8 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
+ #9 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
+ #10 asio::detail::task_io_service::run(std::__1::error_code&)
+ #11 IOService::Run(bool)
+ #12 RunAssetImporterV2()
+ #13 Application::InitializeProject()
+ #14 -[EditorApplication applicationDidFinishLaunching:]
+ #15 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #16 ___CFXRegistrationPost_block_invoke
+ #17 _CFXRegistrationPost
+ #18 _CFXNotificationPost
+ #19 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #20 -[NSApplication _postDidFinishNotification]
+ #21 -[NSApplication _sendFinishLaunchingNotification]
+ #22 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #23 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #24 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #25 _NSAppleEventManagerGenericHandler
+ #26 _AppleEventsCheckInAppWithBlock
+ #27 _AppleEventsCheckInAppWithBlock
+ #28 aeProcessAppleEvent
+ #29 AEProcessAppleEvent
+ #30 _DPSNextEvent
+ #31 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #32 -[NSApplication run]
+ #33 NSApplicationMain
+ #34 EditorMain(int, char const**)
+ #35 main
+ #36 ???
+ #37 ???
+
+Requesting import of Guid(2cda990e2423bbf4892e6590ba056729) Importer(-1,00000000000000000000000000000000), Assets/Scenes/Test2.unity from editor
+Resuming Guid(2cda990e2423bbf4892e6590ba056729) Importer(-1,00000000000000000000000000000000) -> b9ff614b73071dbfb28ecbb4f59baf90 
+Assertion failed on expression: 'unsafeDependencies != nullptr'
+
+Assertion failed on expression: 'unsafeDependencies != nullptr'
+
+Assertion failed on expression: 'unsafeMetaInfo != nullptr'
+
+Assertion failed on expression: 'safeMetaInfo != nullptr'
+
+Assertion failed on expression: 'state.state == kUpToDate'
+
+Assertion failed on expression: 'state.artifactID == result'
+
+Diagnostics callstack to track who triggered the sub-import:
+ #5 ImportToObjects(core::basic_string<char, core::StringStorageDefault<char> > const&, core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::__1::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
+ #6 ImportAsset(core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::__1::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
+ #7 AssetImportWorker::Import(AssetResolver&, WorkerImportPayload const&, WorkerImportResponse&, IImportProgress*, bool*)
+ #8 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_9>(AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_9&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
+ #9 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
+ #10 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
+ #11 asio::detail::task_io_service::run(std::__1::error_code&)
+ #12 IOService::Run(bool)
+ #13 RunAssetImporterV2()
+ #14 Application::InitializeProject()
+ #15 -[EditorApplication applicationDidFinishLaunching:]
+ #16 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #17 ___CFXRegistrationPost_block_invoke
+ #18 _CFXRegistrationPost
+ #19 _CFXNotificationPost
+ #20 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #21 -[NSApplication _postDidFinishNotification]
+ #22 -[NSApplication _sendFinishLaunchingNotification]
+ #23 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #24 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #25 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #26 _NSAppleEventManagerGenericHandler
+ #27 _AppleEventsCheckInAppWithBlock
+ #28 _AppleEventsCheckInAppWithBlock
+ #29 aeProcessAppleEvent
+ #30 AEProcessAppleEvent
+ #31 _DPSNextEvent
+ #32 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #33 -[NSApplication run]
+ #34 NSApplicationMain
+ #35 EditorMain(int, char const**)
+ #36 main
+ #37 ???
+ #38 ???
+
+Requesting import of Guid(2cda990e2423bbf4892e6590ba056729) Importer(-1,00000000000000000000000000000000), Assets/Scenes/Test2.unity from editor
+Resuming Guid(2cda990e2423bbf4892e6590ba056729) Importer(-1,00000000000000000000000000000000) -> b9ff614b73071dbfb28ecbb4f59baf90 
+Assertion failed on expression: 'unsafeDependencies != nullptr'
+
+Assertion failed on expression: 'unsafeDependencies != nullptr'
+
+Assertion failed on expression: 'unsafeMetaInfo != nullptr'
+
+Assertion failed on expression: 'safeMetaInfo != nullptr'
+
+Assertion failed on expression: 'state.state == kUpToDate'
+
+Assertion failed on expression: 'state.artifactID == result'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.012613 seconds  code(4) message(Build asset version error: assets/scenes/test2.unity in SourceAssetDB has modification time of '2022-04-12T09:01:02Z' while content on disk has modification time of '0001-01-01T00:00:00Z')
+  ERROR: Build asset version error: assets/scenes/test2.unity in SourceAssetDB has modification time of '2022-04-12T09:01:02Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+========================================================================
+Received Import Request.
+  Time since last request: 21.747732 seconds.
+  path: Assets/Scripts/RedAlienEnemy.cs
+  artifactKey: Guid(f4485c91e5ee04b8bb96d41de6f27139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RedAlienEnemy.cs using Guid(f4485c91e5ee04b8bb96d41de6f27139) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+ #5 ImportAsset(core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::__1::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
+ #6 AssetImportWorker::Import(AssetResolver&, WorkerImportPayload const&, WorkerImportResponse&, IImportProgress*, bool*)
+ #7 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_9>(AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_9&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
+ #8 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
+ #9 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
+ #10 asio::detail::task_io_service::run(std::__1::error_code&)
+ #11 IOService::Run(bool)
+ #12 RunAssetImporterV2()
+ #13 Application::InitializeProject()
+ #14 -[EditorApplication applicationDidFinishLaunching:]
+ #15 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #16 ___CFXRegistrationPost_block_invoke
+ #17 _CFXRegistrationPost
+ #18 _CFXNotificationPost
+ #19 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #20 -[NSApplication _postDidFinishNotification]
+ #21 -[NSApplication _sendFinishLaunchingNotification]
+ #22 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #23 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #24 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #25 _NSAppleEventManagerGenericHandler
+ #26 _AppleEventsCheckInAppWithBlock
+ #27 _AppleEventsCheckInAppWithBlock
+ #28 aeProcessAppleEvent
+ #29 AEProcessAppleEvent
+ #30 _DPSNextEvent
+ #31 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #32 -[NSApplication run]
+ #33 NSApplicationMain
+ #34 EditorMain(int, char const**)
+ #35 main
+ #36 ???
+ #37 ???
+
+Requesting import of Guid(f4485c91e5ee04b8bb96d41de6f27139) Importer(-1,00000000000000000000000000000000), Assets/Scripts/RedAlienEnemy.cs from editor
+Resuming Guid(f4485c91e5ee04b8bb96d41de6f27139) Importer(-1,00000000000000000000000000000000) -> eba89b4057876eb62dd47bb895a2740c 
+Assertion failed on expression: 'state.state == kUpToDate'
+
+Assertion failed on expression: 'state.artifactID == result'
+
+Diagnostics callstack to track who triggered the sub-import:
+ #5 ImportToObjects(core::basic_string<char, core::StringStorageDefault<char> > const&, core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::__1::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
+ #6 ImportAsset(core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::__1::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
+ #7 AssetImportWorker::Import(AssetResolver&, WorkerImportPayload const&, WorkerImportResponse&, IImportProgress*, bool*)
+ #8 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_9>(AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_9&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
+ #9 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
+ #10 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
+ #11 asio::detail::task_io_service::run(std::__1::error_code&)
+ #12 IOService::Run(bool)
+ #13 RunAssetImporterV2()
+ #14 Application::InitializeProject()
+ #15 -[EditorApplication applicationDidFinishLaunching:]
+ #16 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #17 ___CFXRegistrationPost_block_invoke
+ #18 _CFXRegistrationPost
+ #19 _CFXNotificationPost
+ #20 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #21 -[NSApplication _postDidFinishNotification]
+ #22 -[NSApplication _sendFinishLaunchingNotification]
+ #23 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #24 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #25 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #26 _NSAppleEventManagerGenericHandler
+ #27 _AppleEventsCheckInAppWithBlock
+ #28 _AppleEventsCheckInAppWithBlock
+ #29 aeProcessAppleEvent
+ #30 AEProcessAppleEvent
+ #31 _DPSNextEvent
+ #32 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #33 -[NSApplication run]
+ #34 NSApplicationMain
+ #35 EditorMain(int, char const**)
+ #36 main
+ #37 ???
+ #38 ???
+
+Requesting import of Guid(f4485c91e5ee04b8bb96d41de6f27139) Importer(-1,00000000000000000000000000000000), Assets/Scripts/RedAlienEnemy.cs from editor
+Resuming Guid(f4485c91e5ee04b8bb96d41de6f27139) Importer(-1,00000000000000000000000000000000) -> eba89b4057876eb62dd47bb895a2740c 
+Assertion failed on expression: 'state.state == kUpToDate'
+
+Assertion failed on expression: 'state.artifactID == result'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.082012 seconds  code(4) message(Build asset version error: assets/scripts/redalienenemy.cs in SourceAssetDB has modification time of '2022-04-12T08:33:10Z' while content on disk has modification time of '2022-04-12T09:30:34Z')
+  ERROR: Build asset version error: assets/scripts/redalienenemy.cs in SourceAssetDB has modification time of '2022-04-12T08:33:10Z' while content on disk has modification time of '2022-04-12T09:30:34Z'
+========================================================================
+Received Import Request.
+  Time since last request: 14.013539 seconds.
+  path: Assets/Scripts/RedAlienEnemy.cs
+  artifactKey: Guid(f4485c91e5ee04b8bb96d41de6f27139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RedAlienEnemy.cs using Guid(f4485c91e5ee04b8bb96d41de6f27139) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+ #5 ImportAsset(core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::__1::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
+ #6 AssetImportWorker::Import(AssetResolver&, WorkerImportPayload const&, WorkerImportResponse&, IImportProgress*, bool*)
+ #7 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_9>(AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_9&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
+ #8 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
+ #9 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
+ #10 asio::detail::task_io_service::run(std::__1::error_code&)
+ #11 IOService::Run(bool)
+ #12 RunAssetImporterV2()
+ #13 Application::InitializeProject()
+ #14 -[EditorApplication applicationDidFinishLaunching:]
+ #15 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #16 ___CFXRegistrationPost_block_invoke
+ #17 _CFXRegistrationPost
+ #18 _CFXNotificationPost
+ #19 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #20 -[NSApplication _postDidFinishNotification]
+ #21 -[NSApplication _sendFinishLaunchingNotification]
+ #22 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #23 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #24 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #25 _NSAppleEventManagerGenericHandler
+ #26 _AppleEventsCheckInAppWithBlock
+ #27 _AppleEventsCheckInAppWithBlock
+ #28 aeProcessAppleEvent
+ #29 AEProcessAppleEvent
+ #30 _DPSNextEvent
+ #31 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #32 -[NSApplication run]
+ #33 NSApplicationMain
+ #34 EditorMain(int, char const**)
+ #35 main
+ #36 ???
+ #37 ???
+
+Requesting import of Guid(f4485c91e5ee04b8bb96d41de6f27139) Importer(-1,00000000000000000000000000000000), Assets/Scripts/RedAlienEnemy.cs from editor
+Resuming Guid(f4485c91e5ee04b8bb96d41de6f27139) Importer(-1,00000000000000000000000000000000) -> 49edbcaff3e4f19b8baa643ea83b37a8 
+Assertion failed on expression: 'unsafeDependencies != nullptr'
+
+Assertion failed on expression: 'unsafeDependencies != nullptr'
+
+Assertion failed on expression: 'unsafeMetaInfo != nullptr'
+
+Assertion failed on expression: 'safeMetaInfo != nullptr'
+
+Assertion failed on expression: 'state.state == kUpToDate'
+
+Assertion failed on expression: 'state.artifactID == result'
+
+Diagnostics callstack to track who triggered the sub-import:
+ #5 ImportToObjects(core::basic_string<char, core::StringStorageDefault<char> > const&, core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::__1::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
+ #6 ImportAsset(core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::__1::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
+ #7 AssetImportWorker::Import(AssetResolver&, WorkerImportPayload const&, WorkerImportResponse&, IImportProgress*, bool*)
+ #8 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_9>(AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_9&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
+ #9 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
+ #10 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
+ #11 asio::detail::task_io_service::run(std::__1::error_code&)
+ #12 IOService::Run(bool)
+ #13 RunAssetImporterV2()
+ #14 Application::InitializeProject()
+ #15 -[EditorApplication applicationDidFinishLaunching:]
+ #16 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #17 ___CFXRegistrationPost_block_invoke
+ #18 _CFXRegistrationPost
+ #19 _CFXNotificationPost
+ #20 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #21 -[NSApplication _postDidFinishNotification]
+ #22 -[NSApplication _sendFinishLaunchingNotification]
+ #23 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #24 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #25 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #26 _NSAppleEventManagerGenericHandler
+ #27 _AppleEventsCheckInAppWithBlock
+ #28 _AppleEventsCheckInAppWithBlock
+ #29 aeProcessAppleEvent
+ #30 AEProcessAppleEvent
+ #31 _DPSNextEvent
+ #32 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #33 -[NSApplication run]
+ #34 NSApplicationMain
+ #35 EditorMain(int, char const**)
+ #36 main
+ #37 ???
+ #38 ???
+
+Requesting import of Guid(f4485c91e5ee04b8bb96d41de6f27139) Importer(-1,00000000000000000000000000000000), Assets/Scripts/RedAlienEnemy.cs from editor
+Resuming Guid(f4485c91e5ee04b8bb96d41de6f27139) Importer(-1,00000000000000000000000000000000) -> 49edbcaff3e4f19b8baa643ea83b37a8 
+Assertion failed on expression: 'unsafeDependencies != nullptr'
+
+Assertion failed on expression: 'unsafeDependencies != nullptr'
+
+Assertion failed on expression: 'unsafeMetaInfo != nullptr'
+
+Assertion failed on expression: 'safeMetaInfo != nullptr'
+
+Assertion failed on expression: 'state.state == kUpToDate'
+
+Assertion failed on expression: 'state.artifactID == result'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.011259 seconds  code(4) message(Build asset version error: assets/scripts/redalienenemy.cs in SourceAssetDB has modification time of '2022-04-12T08:33:10Z' while content on disk has modification time of '2022-04-12T09:32:38Z')
+  ERROR: Build asset version error: assets/scripts/redalienenemy.cs in SourceAssetDB has modification time of '2022-04-12T08:33:10Z' while content on disk has modification time of '2022-04-12T09:32:38Z'
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(f4485c91e5ee04b8bb96d41de6f27139) path("Assets/Scripts/RedAlienEnemy.cs") state(2)
+Script is not up to date after domain reload: guid(602f74cbbbd80034b96f88091a8e7c1d) path("Assets/CodeMonkey/Utils/Button_UI.cs") state(2)
+Script is not up to date after domain reload: guid(91ce8dcaef210db41a183b4558f16bb2) path("Assets/CodeMonkey/Utils/World_Mesh.cs") state(2)
+Script is not up to date after domain reload: guid(8ba4b604c0e9db241bb3d130165415cd) path("Assets/CodeMonkey/Utils/UI_TextComplex.cs") state(2)
+Script is not up to date after domain reload: guid(4771330f098d1db4898ad07204154d04) path("Assets/CodeMonkey/Utils/Button_Sprite.cs") state(2)
+Script is not up to date after domain reload: guid(d2de9ebc1890e4862a098a68a48f3bc6) path("Assets/Scripts/LastAIScript.cs") state(2)
+Script is not up to date after domain reload: guid(31e947e7eb3216d40b72c592fa6847a3) path("Assets/CodeMonkey/MonoBehaviours/CameraFollowSetup.cs") state(2)
+Script is not up to date after domain reload: guid(f73a3eab49f30d344a207d7d3d931d98) path("Assets/CodeMonkey/MonoBehaviours/CameraFollow.cs") state(2)
+Script is not up to date after domain reload: guid(eda7ff5f6e8175c4da119ea9ed256f6d) path("Assets/CodeMonkey/Assets.cs") state(2)
+Script is not up to date after domain reload: guid(1460472c3006fb44daea959dda2c4d81) path("Assets/CodeMonkey/Utils/World_Sprite.cs") state(2)
+Script is not up to date after domain reload: guid(edc2020a01573471ab33e6184dd439ef) path("Assets/Scripts/Enemy.cs") state(2)
+Script is not up to date after domain reload: guid(cc20fdc736e8c9442b35e4bcc04c596c) path("Assets/CodeMonkey/Utils/World_Bar.cs") state(2)
+Script is not up to date after domain reload: guid(ce2355f335dcae94abba806390b1bd76) path("Assets/CodeMonkey/Utils/UtilsClass.cs") state(2)
+Script is not up to date after domain reload: guid(b330b302c69005c4f98a928f7d71b877) path("Assets/CodeMonkey/MonoBehaviours/PositionRendererSorter.cs") state(2)
+Script is not up to date after domain reload: guid(4575ee08c655343ea92a75799e90007d) path("Assets/Scripts/Player.cs") state(2)
+Script is not up to date after domain reload: guid(ef6a5e3fe69f64dc1ab6682f43eedd29) path("Assets/Scripts/EnemyPathfindingMovement.cs") state(2)
+Script is not up to date after domain reload: guid(6aefec14fe65f41dbbe80998abf3685d) path("Assets/Scripts/PathNode.cs") state(2)
+Script is not up to date after domain reload: guid(7eacfbf662ad34e46932f36084c15e11) path("Assets/CodeMonkey/Utils/FunctionUpdater.cs") state(2)
+Script is not up to date after domain reload: guid(9c8b5f0217e73fa47827cf77f22c2f8d) path("Assets/CodeMonkey/Utils/FunctionTimer.cs") state(2)
+Script is not up to date after domain reload: guid(1dfbd74342db94bc3bb4a18826e9bed0) path("Assets/Scripts/Enemy_AI.cs") state(2)
+Script is not up to date after domain reload: guid(49ffd25ff4b0ca3429d1b1e2dc0ff037) path("Assets/CodeMonkey/Utils/UI_Bar.cs") state(2)
+Script is not up to date after domain reload: guid(663fbb6dd4de1495c886bd3c4fe5f4c4) path("Assets/Scripts/EnemyPathfinding.cs") state(2)
+Script is not up to date after domain reload: guid(cb3e855e7fda2944b91078893f9e8fd8) path("Assets/CodeMonkey/MonoBehaviours/ComponentActions.cs") state(2)
+Script is not up to date after domain reload: guid(bdb3ee83767704668a9828042c280e49) path("Assets/Scripts/EnemyKI.cs") state(2)
+Script is not up to date after domain reload: guid(d0052e8fbe8cbcd4d8c48038d364333b) path("Assets/CodeMonkey/Utils/UI_Sprite.cs") state(2)
+Script is not up to date after domain reload: guid(c561aaa3f66de4257a206d418fc006b8) path("Assets/Scripts/EnemyPath.cs") state(2)
+Script is not up to date after domain reload: guid(6e114fb013fdf4db2895956d47c73dd3) path("Assets/Scripts/WayPoints.cs") state(2)
+Script is not up to date after domain reload: guid(9cf7b152002fbca49b6a1a4623f200a7) path("Assets/CodeMonkey/Utils/UI_BarMultiple.cs") state(2)
+Script is not up to date after domain reload: guid(b711d30267c7d4ac6b7922bedee95793) path("Assets/Scripts/Grid.cs") state(2)
+Script is not up to date after domain reload: guid(d6005648898e7f647ad2202fe256c311) path("Assets/CodeMonkey/CMDebug.cs") state(2)
+Script is not up to date after domain reload: guid(f522bd6f08a5c984a9512bb60ebc1818) path("Assets/CodeMonkey/Utils/FunctionPeriodic.cs") state(2)
+Script is not up to date after domain reload: guid(416d0f5b582f542bda6c4876f4367b68) path("Assets/Scripts/TestingGridClass.cs") state(2)
+Registering precompiled user dll's ...
+Registered in 0.002110 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.367 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2368ms)
+		BeginReloadAssembly (222ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (42ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (72ms)
+		EndReloadAssembly (2043ms)
+			LoadAssemblies (182ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (382ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (1134ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (980ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (45ms)
+Platform modules already initialized, skipping
+Script is not up to date after domain reload: guid(f4485c91e5ee04b8bb96d41de6f27139) path("Assets/Scripts/RedAlienEnemy.cs") state(2)
+Script is not up to date after domain reload: guid(602f74cbbbd80034b96f88091a8e7c1d) path("Assets/CodeMonkey/Utils/Button_UI.cs") state(2)
+Script is not up to date after domain reload: guid(91ce8dcaef210db41a183b4558f16bb2) path("Assets/CodeMonkey/Utils/World_Mesh.cs") state(2)
+Script is not up to date after domain reload: guid(8ba4b604c0e9db241bb3d130165415cd) path("Assets/CodeMonkey/Utils/UI_TextComplex.cs") state(2)
+Script is not up to date after domain reload: guid(4771330f098d1db4898ad07204154d04) path("Assets/CodeMonkey/Utils/Button_Sprite.cs") state(2)
+Script is not up to date after domain reload: guid(d2de9ebc1890e4862a098a68a48f3bc6) path("Assets/Scripts/LastAIScript.cs") state(2)
+Script is not up to date after domain reload: guid(31e947e7eb3216d40b72c592fa6847a3) path("Assets/CodeMonkey/MonoBehaviours/CameraFollowSetup.cs") state(2)
+Script is not up to date after domain reload: guid(f73a3eab49f30d344a207d7d3d931d98) path("Assets/CodeMonkey/MonoBehaviours/CameraFollow.cs") state(2)
+Script is not up to date after domain reload: guid(eda7ff5f6e8175c4da119ea9ed256f6d) path("Assets/CodeMonkey/Assets.cs") state(2)
+Script is not up to date after domain reload: guid(1460472c3006fb44daea959dda2c4d81) path("Assets/CodeMonkey/Utils/World_Sprite.cs") state(2)
+Script is not up to date after domain reload: guid(edc2020a01573471ab33e6184dd439ef) path("Assets/Scripts/Enemy.cs") state(2)
+Script is not up to date after domain reload: guid(cc20fdc736e8c9442b35e4bcc04c596c) path("Assets/CodeMonkey/Utils/World_Bar.cs") state(2)
+Script is not up to date after domain reload: guid(ce2355f335dcae94abba806390b1bd76) path("Assets/CodeMonkey/Utils/UtilsClass.cs") state(2)
+Script is not up to date after domain reload: guid(b330b302c69005c4f98a928f7d71b877) path("Assets/CodeMonkey/MonoBehaviours/PositionRendererSorter.cs") state(2)
+Script is not up to date after domain reload: guid(4575ee08c655343ea92a75799e90007d) path("Assets/Scripts/Player.cs") state(2)
+Script is not up to date after domain reload: guid(ef6a5e3fe69f64dc1ab6682f43eedd29) path("Assets/Scripts/EnemyPathfindingMovement.cs") state(2)
+Script is not up to date after domain reload: guid(6aefec14fe65f41dbbe80998abf3685d) path("Assets/Scripts/PathNode.cs") state(2)
+Script is not up to date after domain reload: guid(7eacfbf662ad34e46932f36084c15e11) path("Assets/CodeMonkey/Utils/FunctionUpdater.cs") state(2)
+Script is not up to date after domain reload: guid(9c8b5f0217e73fa47827cf77f22c2f8d) path("Assets/CodeMonkey/Utils/FunctionTimer.cs") state(2)
+Script is not up to date after domain reload: guid(1dfbd74342db94bc3bb4a18826e9bed0) path("Assets/Scripts/Enemy_AI.cs") state(2)
+Script is not up to date after domain reload: guid(49ffd25ff4b0ca3429d1b1e2dc0ff037) path("Assets/CodeMonkey/Utils/UI_Bar.cs") state(2)
+Script is not up to date after domain reload: guid(663fbb6dd4de1495c886bd3c4fe5f4c4) path("Assets/Scripts/EnemyPathfinding.cs") state(2)
+Script is not up to date after domain reload: guid(cb3e855e7fda2944b91078893f9e8fd8) path("Assets/CodeMonkey/MonoBehaviours/ComponentActions.cs") state(2)
+Script is not up to date after domain reload: guid(bdb3ee83767704668a9828042c280e49) path("Assets/Scripts/EnemyKI.cs") state(2)
+Script is not up to date after domain reload: guid(d0052e8fbe8cbcd4d8c48038d364333b) path("Assets/CodeMonkey/Utils/UI_Sprite.cs") state(2)
+Script is not up to date after domain reload: guid(c561aaa3f66de4257a206d418fc006b8) path("Assets/Scripts/EnemyPath.cs") state(2)
+Script is not up to date after domain reload: guid(6e114fb013fdf4db2895956d47c73dd3) path("Assets/Scripts/WayPoints.cs") state(2)
+Script is not up to date after domain reload: guid(9cf7b152002fbca49b6a1a4623f200a7) path("Assets/CodeMonkey/Utils/UI_BarMultiple.cs") state(2)
+Script is not up to date after domain reload: guid(b711d30267c7d4ac6b7922bedee95793) path("Assets/Scripts/Grid.cs") state(2)
+Script is not up to date after domain reload: guid(d6005648898e7f647ad2202fe256c311) path("Assets/CodeMonkey/CMDebug.cs") state(2)
+Script is not up to date after domain reload: guid(f522bd6f08a5c984a9512bb60ebc1818) path("Assets/CodeMonkey/Utils/FunctionPeriodic.cs") state(2)
+Script is not up to date after domain reload: guid(416d0f5b582f542bda6c4876f4367b68) path("Assets/Scripts/TestingGridClass.cs") state(2)
+Refreshing native plugins compatible for Editor in 0.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2200 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 210.4 MB.
+System memory in use after: 210.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2669.
+Total: 2.564208 ms (FindLiveObjects: 0.121875 ms CreateObjectMapping: 0.096708 ms MarkObjects: 2.320292 ms  DeleteObjects: 0.024417 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(f4485c91e5ee04b8bb96d41de6f27139) path("Assets/Scripts/RedAlienEnemy.cs") state(2)
+Script is not up to date after domain reload: guid(602f74cbbbd80034b96f88091a8e7c1d) path("Assets/CodeMonkey/Utils/Button_UI.cs") state(2)
+Script is not up to date after domain reload: guid(91ce8dcaef210db41a183b4558f16bb2) path("Assets/CodeMonkey/Utils/World_Mesh.cs") state(2)
+Script is not up to date after domain reload: guid(8ba4b604c0e9db241bb3d130165415cd) path("Assets/CodeMonkey/Utils/UI_TextComplex.cs") state(2)
+Script is not up to date after domain reload: guid(4771330f098d1db4898ad07204154d04) path("Assets/CodeMonkey/Utils/Button_Sprite.cs") state(2)
+Script is not up to date after domain reload: guid(d2de9ebc1890e4862a098a68a48f3bc6) path("Assets/Scripts/LastAIScript.cs") state(2)
+Script is not up to date after domain reload: guid(31e947e7eb3216d40b72c592fa6847a3) path("Assets/CodeMonkey/MonoBehaviours/CameraFollowSetup.cs") state(2)
+Script is not up to date after domain reload: guid(f73a3eab49f30d344a207d7d3d931d98) path("Assets/CodeMonkey/MonoBehaviours/CameraFollow.cs") state(2)
+Script is not up to date after domain reload: guid(eda7ff5f6e8175c4da119ea9ed256f6d) path("Assets/CodeMonkey/Assets.cs") state(2)
+Script is not up to date after domain reload: guid(1460472c3006fb44daea959dda2c4d81) path("Assets/CodeMonkey/Utils/World_Sprite.cs") state(2)
+Script is not up to date after domain reload: guid(edc2020a01573471ab33e6184dd439ef) path("Assets/Scripts/Enemy.cs") state(2)
+Script is not up to date after domain reload: guid(cc20fdc736e8c9442b35e4bcc04c596c) path("Assets/CodeMonkey/Utils/World_Bar.cs") state(2)
+Script is not up to date after domain reload: guid(ce2355f335dcae94abba806390b1bd76) path("Assets/CodeMonkey/Utils/UtilsClass.cs") state(2)
+Script is not up to date after domain reload: guid(b330b302c69005c4f98a928f7d71b877) path("Assets/CodeMonkey/MonoBehaviours/PositionRendererSorter.cs") state(2)
+Script is not up to date after domain reload: guid(4575ee08c655343ea92a75799e90007d) path("Assets/Scripts/Player.cs") state(2)
+Script is not up to date after domain reload: guid(ef6a5e3fe69f64dc1ab6682f43eedd29) path("Assets/Scripts/EnemyPathfindingMovement.cs") state(2)
+Script is not up to date after domain reload: guid(6aefec14fe65f41dbbe80998abf3685d) path("Assets/Scripts/PathNode.cs") state(2)
+Script is not up to date after domain reload: guid(7eacfbf662ad34e46932f36084c15e11) path("Assets/CodeMonkey/Utils/FunctionUpdater.cs") state(2)
+Script is not up to date after domain reload: guid(9c8b5f0217e73fa47827cf77f22c2f8d) path("Assets/CodeMonkey/Utils/FunctionTimer.cs") state(2)
+Script is not up to date after domain reload: guid(1dfbd74342db94bc3bb4a18826e9bed0) path("Assets/Scripts/Enemy_AI.cs") state(2)
+Script is not up to date after domain reload: guid(49ffd25ff4b0ca3429d1b1e2dc0ff037) path("Assets/CodeMonkey/Utils/UI_Bar.cs") state(2)
+Script is not up to date after domain reload: guid(663fbb6dd4de1495c886bd3c4fe5f4c4) path("Assets/Scripts/EnemyPathfinding.cs") state(2)
+Script is not up to date after domain reload: guid(cb3e855e7fda2944b91078893f9e8fd8) path("Assets/CodeMonkey/MonoBehaviours/ComponentActions.cs") state(2)
+Script is not up to date after domain reload: guid(bdb3ee83767704668a9828042c280e49) path("Assets/Scripts/EnemyKI.cs") state(2)
+Script is not up to date after domain reload: guid(d0052e8fbe8cbcd4d8c48038d364333b) path("Assets/CodeMonkey/Utils/UI_Sprite.cs") state(2)
+Script is not up to date after domain reload: guid(c561aaa3f66de4257a206d418fc006b8) path("Assets/Scripts/EnemyPath.cs") state(2)
+Script is not up to date after domain reload: guid(6e114fb013fdf4db2895956d47c73dd3) path("Assets/Scripts/WayPoints.cs") state(2)
+Script is not up to date after domain reload: guid(9cf7b152002fbca49b6a1a4623f200a7) path("Assets/CodeMonkey/Utils/UI_BarMultiple.cs") state(2)
+Script is not up to date after domain reload: guid(b711d30267c7d4ac6b7922bedee95793) path("Assets/Scripts/Grid.cs") state(2)
+Script is not up to date after domain reload: guid(d6005648898e7f647ad2202fe256c311) path("Assets/CodeMonkey/CMDebug.cs") state(2)
+Script is not up to date after domain reload: guid(f522bd6f08a5c984a9512bb60ebc1818) path("Assets/CodeMonkey/Utils/FunctionPeriodic.cs") state(2)
+Script is not up to date after domain reload: guid(416d0f5b582f542bda6c4876f4367b68) path("Assets/Scripts/TestingGridClass.cs") state(2)
+Registering precompiled user dll's ...
+Registered in 0.001209 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.289 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2289ms)
+		BeginReloadAssembly (203ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (38ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (1988ms)
+			LoadAssemblies (170ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (366ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (1079ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (930ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (47ms)
+Platform modules already initialized, skipping
+Script is not up to date after domain reload: guid(f4485c91e5ee04b8bb96d41de6f27139) path("Assets/Scripts/RedAlienEnemy.cs") state(2)
+Script is not up to date after domain reload: guid(602f74cbbbd80034b96f88091a8e7c1d) path("Assets/CodeMonkey/Utils/Button_UI.cs") state(2)
+Script is not up to date after domain reload: guid(91ce8dcaef210db41a183b4558f16bb2) path("Assets/CodeMonkey/Utils/World_Mesh.cs") state(2)
+Script is not up to date after domain reload: guid(8ba4b604c0e9db241bb3d130165415cd) path("Assets/CodeMonkey/Utils/UI_TextComplex.cs") state(2)
+Script is not up to date after domain reload: guid(4771330f098d1db4898ad07204154d04) path("Assets/CodeMonkey/Utils/Button_Sprite.cs") state(2)
+Script is not up to date after domain reload: guid(d2de9ebc1890e4862a098a68a48f3bc6) path("Assets/Scripts/LastAIScript.cs") state(2)
+Script is not up to date after domain reload: guid(31e947e7eb3216d40b72c592fa6847a3) path("Assets/CodeMonkey/MonoBehaviours/CameraFollowSetup.cs") state(2)
+Script is not up to date after domain reload: guid(f73a3eab49f30d344a207d7d3d931d98) path("Assets/CodeMonkey/MonoBehaviours/CameraFollow.cs") state(2)
+Script is not up to date after domain reload: guid(eda7ff5f6e8175c4da119ea9ed256f6d) path("Assets/CodeMonkey/Assets.cs") state(2)
+Script is not up to date after domain reload: guid(1460472c3006fb44daea959dda2c4d81) path("Assets/CodeMonkey/Utils/World_Sprite.cs") state(2)
+Script is not up to date after domain reload: guid(edc2020a01573471ab33e6184dd439ef) path("Assets/Scripts/Enemy.cs") state(2)
+Script is not up to date after domain reload: guid(cc20fdc736e8c9442b35e4bcc04c596c) path("Assets/CodeMonkey/Utils/World_Bar.cs") state(2)
+Script is not up to date after domain reload: guid(ce2355f335dcae94abba806390b1bd76) path("Assets/CodeMonkey/Utils/UtilsClass.cs") state(2)
+Script is not up to date after domain reload: guid(b330b302c69005c4f98a928f7d71b877) path("Assets/CodeMonkey/MonoBehaviours/PositionRendererSorter.cs") state(2)
+Script is not up to date after domain reload: guid(4575ee08c655343ea92a75799e90007d) path("Assets/Scripts/Player.cs") state(2)
+Script is not up to date after domain reload: guid(ef6a5e3fe69f64dc1ab6682f43eedd29) path("Assets/Scripts/EnemyPathfindingMovement.cs") state(2)
+Script is not up to date after domain reload: guid(6aefec14fe65f41dbbe80998abf3685d) path("Assets/Scripts/PathNode.cs") state(2)
+Script is not up to date after domain reload: guid(7eacfbf662ad34e46932f36084c15e11) path("Assets/CodeMonkey/Utils/FunctionUpdater.cs") state(2)
+Script is not up to date after domain reload: guid(9c8b5f0217e73fa47827cf77f22c2f8d) path("Assets/CodeMonkey/Utils/FunctionTimer.cs") state(2)
+Script is not up to date after domain reload: guid(1dfbd74342db94bc3bb4a18826e9bed0) path("Assets/Scripts/Enemy_AI.cs") state(2)
+Script is not up to date after domain reload: guid(49ffd25ff4b0ca3429d1b1e2dc0ff037) path("Assets/CodeMonkey/Utils/UI_Bar.cs") state(2)
+Script is not up to date after domain reload: guid(663fbb6dd4de1495c886bd3c4fe5f4c4) path("Assets/Scripts/EnemyPathfinding.cs") state(2)
+Script is not up to date after domain reload: guid(cb3e855e7fda2944b91078893f9e8fd8) path("Assets/CodeMonkey/MonoBehaviours/ComponentActions.cs") state(2)
+Script is not up to date after domain reload: guid(bdb3ee83767704668a9828042c280e49) path("Assets/Scripts/EnemyKI.cs") state(2)
+Script is not up to date after domain reload: guid(d0052e8fbe8cbcd4d8c48038d364333b) path("Assets/CodeMonkey/Utils/UI_Sprite.cs") state(2)
+Script is not up to date after domain reload: guid(c561aaa3f66de4257a206d418fc006b8) path("Assets/Scripts/EnemyPath.cs") state(2)
+Script is not up to date after domain reload: guid(6e114fb013fdf4db2895956d47c73dd3) path("Assets/Scripts/WayPoints.cs") state(2)
+Script is not up to date after domain reload: guid(9cf7b152002fbca49b6a1a4623f200a7) path("Assets/CodeMonkey/Utils/UI_BarMultiple.cs") state(2)
+Script is not up to date after domain reload: guid(b711d30267c7d4ac6b7922bedee95793) path("Assets/Scripts/Grid.cs") state(2)
+Script is not up to date after domain reload: guid(d6005648898e7f647ad2202fe256c311) path("Assets/CodeMonkey/CMDebug.cs") state(2)
+Script is not up to date after domain reload: guid(f522bd6f08a5c984a9512bb60ebc1818) path("Assets/CodeMonkey/Utils/FunctionPeriodic.cs") state(2)
+Script is not up to date after domain reload: guid(416d0f5b582f542bda6c4876f4367b68) path("Assets/Scripts/TestingGridClass.cs") state(2)
+Refreshing native plugins compatible for Editor in 0.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2200 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 210.6 MB.
+System memory in use after: 210.7 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2672.
+Total: 2.484833 ms (FindLiveObjects: 0.110458 ms CreateObjectMapping: 0.097375 ms MarkObjects: 2.259917 ms  DeleteObjects: 0.016209 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 12698.677716 seconds.
+  path: Assets/Scripts/Player.cs
+  artifactKey: Guid(4575ee08c655343ea92a75799e90007d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.cs using Guid(4575ee08c655343ea92a75799e90007d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+ #5 ImportAsset(core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::__1::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
+ #6 AssetImportWorker::Import(AssetResolver&, WorkerImportPayload const&, WorkerImportResponse&, IImportProgress*, bool*)
+ #7 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_9>(AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_9&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
+ #8 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
+ #9 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
+ #10 asio::detail::task_io_service::run(std::__1::error_code&)
+ #11 IOService::Run(bool)
+ #12 RunAssetImporterV2()
+ #13 Application::InitializeProject()
+ #14 -[EditorApplication applicationDidFinishLaunching:]
+ #15 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #16 ___CFXRegistrationPost_block_invoke
+ #17 _CFXRegistrationPost
+ #18 _CFXNotificationPost
+ #19 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #20 -[NSApplication _postDidFinishNotification]
+ #21 -[NSApplication _sendFinishLaunchingNotification]
+ #22 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #23 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #24 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #25 _NSAppleEventManagerGenericHandler
+ #26 _AppleEventsCheckInAppWithBlock
+ #27 _AppleEventsCheckInAppWithBlock
+ #28 aeProcessAppleEvent
+ #29 AEProcessAppleEvent
+ #30 _DPSNextEvent
+ #31 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #32 -[NSApplication run]
+ #33 NSApplicationMain
+ #34 EditorMain(int, char const**)
+ #35 main
+ #36 ???
+ #37 ???
+
+Requesting import of Guid(4575ee08c655343ea92a75799e90007d) Importer(-1,00000000000000000000000000000000), Assets/Scripts/Player.cs from editor
+Resuming Guid(4575ee08c655343ea92a75799e90007d) Importer(-1,00000000000000000000000000000000) -> ba67425f0553253df0bb5fff57106419 
+Assertion failed on expression: 'state.state == kUpToDate'
+
+Assertion failed on expression: 'state.artifactID == result'
+
+Diagnostics callstack to track who triggered the sub-import:
+ #5 ImportToObjects(core::basic_string<char, core::StringStorageDefault<char> > const&, core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::__1::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
+ #6 ImportAsset(core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::__1::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
+ #7 AssetImportWorker::Import(AssetResolver&, WorkerImportPayload const&, WorkerImportResponse&, IImportProgress*, bool*)
+ #8 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_9>(AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_9&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
+ #9 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
+ #10 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
+ #11 asio::detail::task_io_service::run(std::__1::error_code&)
+ #12 IOService::Run(bool)
+ #13 RunAssetImporterV2()
+ #14 Application::InitializeProject()
+ #15 -[EditorApplication applicationDidFinishLaunching:]
+ #16 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #17 ___CFXRegistrationPost_block_invoke
+ #18 _CFXRegistrationPost
+ #19 _CFXNotificationPost
+ #20 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #21 -[NSApplication _postDidFinishNotification]
+ #22 -[NSApplication _sendFinishLaunchingNotification]
+ #23 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #24 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #25 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #26 _NSAppleEventManagerGenericHandler
+ #27 _AppleEventsCheckInAppWithBlock
+ #28 _AppleEventsCheckInAppWithBlock
+ #29 aeProcessAppleEvent
+ #30 AEProcessAppleEvent
+ #31 _DPSNextEvent
+ #32 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #33 -[NSApplication run]
+ #34 NSApplicationMain
+ #35 EditorMain(int, char const**)
+ #36 main
+ #37 ???
+ #38 ???
+
+Requesting import of Guid(4575ee08c655343ea92a75799e90007d) Importer(-1,00000000000000000000000000000000), Assets/Scripts/Player.cs from editor
+Resuming Guid(4575ee08c655343ea92a75799e90007d) Importer(-1,00000000000000000000000000000000) -> ba67425f0553253df0bb5fff57106419 
+Assertion failed on expression: 'state.state == kUpToDate'
+
+Assertion failed on expression: 'state.artifactID == result'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.013645 seconds  code(4) message(Build asset version error: assets/scripts/player.cs in SourceAssetDB has modification time of '2022-04-10T12:02:42Z' while content on disk has modification time of '2022-04-12T09:30:34Z')
+  ERROR: Build asset version error: assets/scripts/player.cs in SourceAssetDB has modification time of '2022-04-10T12:02:42Z' while content on disk has modification time of '2022-04-12T09:30:34Z'
+========================================================================
+Received Import Request.
+  Time since last request: 100.648893 seconds.
+  path: Assets/Scripts/Player.cs
+  artifactKey: Guid(4575ee08c655343ea92a75799e90007d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.cs using Guid(4575ee08c655343ea92a75799e90007d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+ #5 ImportAsset(core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::__1::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
+ #6 AssetImportWorker::Import(AssetResolver&, WorkerImportPayload const&, WorkerImportResponse&, IImportProgress*, bool*)
+ #7 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_9>(AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_9&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
+ #8 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
+ #9 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
+ #10 asio::detail::task_io_service::run(std::__1::error_code&)
+ #11 IOService::Run(bool)
+ #12 RunAssetImporterV2()
+ #13 Application::InitializeProject()
+ #14 -[EditorApplication applicationDidFinishLaunching:]
+ #15 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #16 ___CFXRegistrationPost_block_invoke
+ #17 _CFXRegistrationPost
+ #18 _CFXNotificationPost
+ #19 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #20 -[NSApplication _postDidFinishNotification]
+ #21 -[NSApplication _sendFinishLaunchingNotification]
+ #22 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #23 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #24 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #25 _NSAppleEventManagerGenericHandler
+ #26 _AppleEventsCheckInAppWithBlock
+ #27 _AppleEventsCheckInAppWithBlock
+ #28 aeProcessAppleEvent
+ #29 AEProcessAppleEvent
+ #30 _DPSNextEvent
+ #31 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #32 -[NSApplication run]
+ #33 NSApplicationMain
+ #34 EditorMain(int, char const**)
+ #35 main
+ #36 ???
+ #37 ???
+
+Requesting import of Guid(4575ee08c655343ea92a75799e90007d) Importer(-1,00000000000000000000000000000000), Assets/Scripts/Player.cs from editor
+Resuming Guid(4575ee08c655343ea92a75799e90007d) Importer(-1,00000000000000000000000000000000) -> ba83c708a0791b536beba0a91f58277c 
+Assertion failed on expression: 'unsafeDependencies != nullptr'
+
+Assertion failed on expression: 'unsafeDependencies != nullptr'
+
+Assertion failed on expression: 'unsafeMetaInfo != nullptr'
+
+Assertion failed on expression: 'safeMetaInfo != nullptr'
+
+Assertion failed on expression: 'state.state == kUpToDate'
+
+Assertion failed on expression: 'state.artifactID == result'
+
+Diagnostics callstack to track who triggered the sub-import:
+ #5 ImportToObjects(core::basic_string<char, core::StringStorageDefault<char> > const&, core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::__1::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
+ #6 ImportAsset(core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::__1::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
+ #7 AssetImportWorker::Import(AssetResolver&, WorkerImportPayload const&, WorkerImportResponse&, IImportProgress*, bool*)
+ #8 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_9>(AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_9&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
+ #9 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
+ #10 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
+ #11 asio::detail::task_io_service::run(std::__1::error_code&)
+ #12 IOService::Run(bool)
+ #13 RunAssetImporterV2()
+ #14 Application::InitializeProject()
+ #15 -[EditorApplication applicationDidFinishLaunching:]
+ #16 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #17 ___CFXRegistrationPost_block_invoke
+ #18 _CFXRegistrationPost
+ #19 _CFXNotificationPost
+ #20 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #21 -[NSApplication _postDidFinishNotification]
+ #22 -[NSApplication _sendFinishLaunchingNotification]
+ #23 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #24 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #25 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #26 _NSAppleEventManagerGenericHandler
+ #27 _AppleEventsCheckInAppWithBlock
+ #28 _AppleEventsCheckInAppWithBlock
+ #29 aeProcessAppleEvent
+ #30 AEProcessAppleEvent
+ #31 _DPSNextEvent
+ #32 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #33 -[NSApplication run]
+ #34 NSApplicationMain
+ #35 EditorMain(int, char const**)
+ #36 main
+ #37 ???
+ #38 ???
+
+Requesting import of Guid(4575ee08c655343ea92a75799e90007d) Importer(-1,00000000000000000000000000000000), Assets/Scripts/Player.cs from editor
+Resuming Guid(4575ee08c655343ea92a75799e90007d) Importer(-1,00000000000000000000000000000000) -> ba83c708a0791b536beba0a91f58277c 
+Assertion failed on expression: 'unsafeDependencies != nullptr'
+
+Assertion failed on expression: 'unsafeDependencies != nullptr'
+
+Assertion failed on expression: 'unsafeMetaInfo != nullptr'
+
+Assertion failed on expression: 'safeMetaInfo != nullptr'
+
+Assertion failed on expression: 'state.state == kUpToDate'
+
+Assertion failed on expression: 'state.artifactID == result'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.010693 seconds  code(4) message(Build asset version error: assets/scripts/player.cs in SourceAssetDB has modification time of '2022-04-10T12:02:42Z' while content on disk has modification time of '2022-04-12T13:05:57Z')
+  ERROR: Build asset version error: assets/scripts/player.cs in SourceAssetDB has modification time of '2022-04-10T12:02:42Z' while content on disk has modification time of '2022-04-12T13:05:57Z'
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(f4485c91e5ee04b8bb96d41de6f27139) path("Assets/Scripts/RedAlienEnemy.cs") state(2)
+Script is not up to date after domain reload: guid(602f74cbbbd80034b96f88091a8e7c1d) path("Assets/CodeMonkey/Utils/Button_UI.cs") state(2)
+Script is not up to date after domain reload: guid(91ce8dcaef210db41a183b4558f16bb2) path("Assets/CodeMonkey/Utils/World_Mesh.cs") state(2)
+Script is not up to date after domain reload: guid(8ba4b604c0e9db241bb3d130165415cd) path("Assets/CodeMonkey/Utils/UI_TextComplex.cs") state(2)
+Script is not up to date after domain reload: guid(4771330f098d1db4898ad07204154d04) path("Assets/CodeMonkey/Utils/Button_Sprite.cs") state(2)
+Script is not up to date after domain reload: guid(d2de9ebc1890e4862a098a68a48f3bc6) path("Assets/Scripts/LastAIScript.cs") state(2)
+Script is not up to date after domain reload: guid(31e947e7eb3216d40b72c592fa6847a3) path("Assets/CodeMonkey/MonoBehaviours/CameraFollowSetup.cs") state(2)
+Script is not up to date after domain reload: guid(f73a3eab49f30d344a207d7d3d931d98) path("Assets/CodeMonkey/MonoBehaviours/CameraFollow.cs") state(2)
+Script is not up to date after domain reload: guid(eda7ff5f6e8175c4da119ea9ed256f6d) path("Assets/CodeMonkey/Assets.cs") state(2)
+Script is not up to date after domain reload: guid(1460472c3006fb44daea959dda2c4d81) path("Assets/CodeMonkey/Utils/World_Sprite.cs") state(2)
+Script is not up to date after domain reload: guid(edc2020a01573471ab33e6184dd439ef) path("Assets/Scripts/Enemy.cs") state(2)
+Script is not up to date after domain reload: guid(cc20fdc736e8c9442b35e4bcc04c596c) path("Assets/CodeMonkey/Utils/World_Bar.cs") state(2)
+Script is not up to date after domain reload: guid(ce2355f335dcae94abba806390b1bd76) path("Assets/CodeMonkey/Utils/UtilsClass.cs") state(2)
+Script is not up to date after domain reload: guid(b330b302c69005c4f98a928f7d71b877) path("Assets/CodeMonkey/MonoBehaviours/PositionRendererSorter.cs") state(2)
+Script is not up to date after domain reload: guid(4575ee08c655343ea92a75799e90007d) path("Assets/Scripts/Player.cs") state(2)
+Script is not up to date after domain reload: guid(ef6a5e3fe69f64dc1ab6682f43eedd29) path("Assets/Scripts/EnemyPathfindingMovement.cs") state(2)
+Script is not up to date after domain reload: guid(6aefec14fe65f41dbbe80998abf3685d) path("Assets/Scripts/PathNode.cs") state(2)
+Script is not up to date after domain reload: guid(7eacfbf662ad34e46932f36084c15e11) path("Assets/CodeMonkey/Utils/FunctionUpdater.cs") state(2)
+Script is not up to date after domain reload: guid(9c8b5f0217e73fa47827cf77f22c2f8d) path("Assets/CodeMonkey/Utils/FunctionTimer.cs") state(2)
+Script is not up to date after domain reload: guid(1dfbd74342db94bc3bb4a18826e9bed0) path("Assets/Scripts/Enemy_AI.cs") state(2)
+Script is not up to date after domain reload: guid(49ffd25ff4b0ca3429d1b1e2dc0ff037) path("Assets/CodeMonkey/Utils/UI_Bar.cs") state(2)
+Script is not up to date after domain reload: guid(663fbb6dd4de1495c886bd3c4fe5f4c4) path("Assets/Scripts/EnemyPathfinding.cs") state(2)
+Script is not up to date after domain reload: guid(cb3e855e7fda2944b91078893f9e8fd8) path("Assets/CodeMonkey/MonoBehaviours/ComponentActions.cs") state(2)
+Script is not up to date after domain reload: guid(bdb3ee83767704668a9828042c280e49) path("Assets/Scripts/EnemyKI.cs") state(2)
+Script is not up to date after domain reload: guid(d0052e8fbe8cbcd4d8c48038d364333b) path("Assets/CodeMonkey/Utils/UI_Sprite.cs") state(2)
+Script is not up to date after domain reload: guid(c561aaa3f66de4257a206d418fc006b8) path("Assets/Scripts/EnemyPath.cs") state(2)
+Script is not up to date after domain reload: guid(6e114fb013fdf4db2895956d47c73dd3) path("Assets/Scripts/WayPoints.cs") state(2)
+Script is not up to date after domain reload: guid(9cf7b152002fbca49b6a1a4623f200a7) path("Assets/CodeMonkey/Utils/UI_BarMultiple.cs") state(2)
+Script is not up to date after domain reload: guid(b711d30267c7d4ac6b7922bedee95793) path("Assets/Scripts/Grid.cs") state(2)
+Script is not up to date after domain reload: guid(d6005648898e7f647ad2202fe256c311) path("Assets/CodeMonkey/CMDebug.cs") state(2)
+Script is not up to date after domain reload: guid(f522bd6f08a5c984a9512bb60ebc1818) path("Assets/CodeMonkey/Utils/FunctionPeriodic.cs") state(2)
+Script is not up to date after domain reload: guid(416d0f5b582f542bda6c4876f4367b68) path("Assets/Scripts/TestingGridClass.cs") state(2)
+Registering precompiled user dll's ...
+Registered in 0.003114 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.457 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2460ms)
+		BeginReloadAssembly (230ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (45ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (74ms)
+		EndReloadAssembly (2127ms)
+			LoadAssemblies (183ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (378ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (1215ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (1054ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (47ms)
+Platform modules already initialized, skipping
+Script is not up to date after domain reload: guid(f4485c91e5ee04b8bb96d41de6f27139) path("Assets/Scripts/RedAlienEnemy.cs") state(2)
+Script is not up to date after domain reload: guid(602f74cbbbd80034b96f88091a8e7c1d) path("Assets/CodeMonkey/Utils/Button_UI.cs") state(2)
+Script is not up to date after domain reload: guid(91ce8dcaef210db41a183b4558f16bb2) path("Assets/CodeMonkey/Utils/World_Mesh.cs") state(2)
+Script is not up to date after domain reload: guid(8ba4b604c0e9db241bb3d130165415cd) path("Assets/CodeMonkey/Utils/UI_TextComplex.cs") state(2)
+Script is not up to date after domain reload: guid(4771330f098d1db4898ad07204154d04) path("Assets/CodeMonkey/Utils/Button_Sprite.cs") state(2)
+Script is not up to date after domain reload: guid(d2de9ebc1890e4862a098a68a48f3bc6) path("Assets/Scripts/LastAIScript.cs") state(2)
+Script is not up to date after domain reload: guid(31e947e7eb3216d40b72c592fa6847a3) path("Assets/CodeMonkey/MonoBehaviours/CameraFollowSetup.cs") state(2)
+Script is not up to date after domain reload: guid(f73a3eab49f30d344a207d7d3d931d98) path("Assets/CodeMonkey/MonoBehaviours/CameraFollow.cs") state(2)
+Script is not up to date after domain reload: guid(eda7ff5f6e8175c4da119ea9ed256f6d) path("Assets/CodeMonkey/Assets.cs") state(2)
+Script is not up to date after domain reload: guid(1460472c3006fb44daea959dda2c4d81) path("Assets/CodeMonkey/Utils/World_Sprite.cs") state(2)
+Script is not up to date after domain reload: guid(edc2020a01573471ab33e6184dd439ef) path("Assets/Scripts/Enemy.cs") state(2)
+Script is not up to date after domain reload: guid(cc20fdc736e8c9442b35e4bcc04c596c) path("Assets/CodeMonkey/Utils/World_Bar.cs") state(2)
+Script is not up to date after domain reload: guid(ce2355f335dcae94abba806390b1bd76) path("Assets/CodeMonkey/Utils/UtilsClass.cs") state(2)
+Script is not up to date after domain reload: guid(b330b302c69005c4f98a928f7d71b877) path("Assets/CodeMonkey/MonoBehaviours/PositionRendererSorter.cs") state(2)
+Script is not up to date after domain reload: guid(4575ee08c655343ea92a75799e90007d) path("Assets/Scripts/Player.cs") state(2)
+Script is not up to date after domain reload: guid(ef6a5e3fe69f64dc1ab6682f43eedd29) path("Assets/Scripts/EnemyPathfindingMovement.cs") state(2)
+Script is not up to date after domain reload: guid(6aefec14fe65f41dbbe80998abf3685d) path("Assets/Scripts/PathNode.cs") state(2)
+Script is not up to date after domain reload: guid(7eacfbf662ad34e46932f36084c15e11) path("Assets/CodeMonkey/Utils/FunctionUpdater.cs") state(2)
+Script is not up to date after domain reload: guid(9c8b5f0217e73fa47827cf77f22c2f8d) path("Assets/CodeMonkey/Utils/FunctionTimer.cs") state(2)
+Script is not up to date after domain reload: guid(1dfbd74342db94bc3bb4a18826e9bed0) path("Assets/Scripts/Enemy_AI.cs") state(2)
+Script is not up to date after domain reload: guid(49ffd25ff4b0ca3429d1b1e2dc0ff037) path("Assets/CodeMonkey/Utils/UI_Bar.cs") state(2)
+Script is not up to date after domain reload: guid(663fbb6dd4de1495c886bd3c4fe5f4c4) path("Assets/Scripts/EnemyPathfinding.cs") state(2)
+Script is not up to date after domain reload: guid(cb3e855e7fda2944b91078893f9e8fd8) path("Assets/CodeMonkey/MonoBehaviours/ComponentActions.cs") state(2)
+Script is not up to date after domain reload: guid(bdb3ee83767704668a9828042c280e49) path("Assets/Scripts/EnemyKI.cs") state(2)
+Script is not up to date after domain reload: guid(d0052e8fbe8cbcd4d8c48038d364333b) path("Assets/CodeMonkey/Utils/UI_Sprite.cs") state(2)
+Script is not up to date after domain reload: guid(c561aaa3f66de4257a206d418fc006b8) path("Assets/Scripts/EnemyPath.cs") state(2)
+Script is not up to date after domain reload: guid(6e114fb013fdf4db2895956d47c73dd3) path("Assets/Scripts/WayPoints.cs") state(2)
+Script is not up to date after domain reload: guid(9cf7b152002fbca49b6a1a4623f200a7) path("Assets/CodeMonkey/Utils/UI_BarMultiple.cs") state(2)
+Script is not up to date after domain reload: guid(b711d30267c7d4ac6b7922bedee95793) path("Assets/Scripts/Grid.cs") state(2)
+Script is not up to date after domain reload: guid(d6005648898e7f647ad2202fe256c311) path("Assets/CodeMonkey/CMDebug.cs") state(2)
+Script is not up to date after domain reload: guid(f522bd6f08a5c984a9512bb60ebc1818) path("Assets/CodeMonkey/Utils/FunctionPeriodic.cs") state(2)
+Script is not up to date after domain reload: guid(416d0f5b582f542bda6c4876f4367b68) path("Assets/Scripts/TestingGridClass.cs") state(2)
+Refreshing native plugins compatible for Editor in 0.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2200 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 210.8 MB.
+System memory in use after: 210.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2675.
+Total: 2.547583 ms (FindLiveObjects: 0.095209 ms CreateObjectMapping: 0.095750 ms MarkObjects: 2.339542 ms  DeleteObjects: 0.016125 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 8.967621 seconds.
+  path: Assets/Scripts/Player.cs
+  artifactKey: Guid(4575ee08c655343ea92a75799e90007d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.cs using Guid(4575ee08c655343ea92a75799e90007d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+ #5 ImportAsset(core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::__1::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
+ #6 AssetImportWorker::Import(AssetResolver&, WorkerImportPayload const&, WorkerImportResponse&, IImportProgress*, bool*)
+ #7 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_9>(AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_9&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
+ #8 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
+ #9 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
+ #10 asio::detail::task_io_service::run(std::__1::error_code&)
+ #11 IOService::Run(bool)
+ #12 RunAssetImporterV2()
+ #13 Application::InitializeProject()
+ #14 -[EditorApplication applicationDidFinishLaunching:]
+ #15 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #16 ___CFXRegistrationPost_block_invoke
+ #17 _CFXRegistrationPost
+ #18 _CFXNotificationPost
+ #19 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #20 -[NSApplication _postDidFinishNotification]
+ #21 -[NSApplication _sendFinishLaunchingNotification]
+ #22 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #23 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #24 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #25 _NSAppleEventManagerGenericHandler
+ #26 _AppleEventsCheckInAppWithBlock
+ #27 _AppleEventsCheckInAppWithBlock
+ #28 aeProcessAppleEvent
+ #29 AEProcessAppleEvent
+ #30 _DPSNextEvent
+ #31 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #32 -[NSApplication run]
+ #33 NSApplicationMain
+ #34 EditorMain(int, char const**)
+ #35 main
+ #36 ???
+ #37 ???
+
+Requesting import of Guid(4575ee08c655343ea92a75799e90007d) Importer(-1,00000000000000000000000000000000), Assets/Scripts/Player.cs from editor
+Resuming Guid(4575ee08c655343ea92a75799e90007d) Importer(-1,00000000000000000000000000000000) -> ba83c708a0791b536beba0a91f58277c 
+Assertion failed on expression: 'unsafeDependencies != nullptr'
+
+Assertion failed on expression: 'unsafeDependencies != nullptr'
+
+Assertion failed on expression: 'unsafeMetaInfo != nullptr'
+
+Assertion failed on expression: 'safeMetaInfo != nullptr'
+
+Assertion failed on expression: 'state.state == kUpToDate'
+
+Assertion failed on expression: 'state.artifactID == result'
+
+Diagnostics callstack to track who triggered the sub-import:
+ #5 ImportToObjects(core::basic_string<char, core::StringStorageDefault<char> > const&, core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::__1::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
+ #6 ImportAsset(core::hash_map<AssetDatabase::ImporterID, ImporterInfo, core::hash<AssetDatabase::ImporterID>, std::__1::equal_to<AssetDatabase::ImporterID> > const&, dynamic_array<PostprocessorInfo, 0ul> const&, AssetResolveTracker const&, ImportAssetInputs const&, ImportAssetOutputs&, IImportProgress*)
+ #7 AssetImportWorker::Import(AssetResolver&, WorkerImportPayload const&, WorkerImportResponse&, IImportProgress*, bool*)
+ #8 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_9>(AssetImportWorkerClient::HandleMessage(ImportRequestMessage const&)::$_9&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
+ #9 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
+ #10 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
+ #11 asio::detail::task_io_service::run(std::__1::error_code&)
+ #12 IOService::Run(bool)
+ #13 RunAssetImporterV2()
+ #14 Application::InitializeProject()
+ #15 -[EditorApplication applicationDidFinishLaunching:]
+ #16 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #17 ___CFXRegistrationPost_block_invoke
+ #18 _CFXRegistrationPost
+ #19 _CFXNotificationPost
+ #20 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #21 -[NSApplication _postDidFinishNotification]
+ #22 -[NSApplication _sendFinishLaunchingNotification]
+ #23 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #24 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #25 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #26 _NSAppleEventManagerGenericHandler
+ #27 _AppleEventsCheckInAppWithBlock
+ #28 _AppleEventsCheckInAppWithBlock
+ #29 aeProcessAppleEvent
+ #30 AEProcessAppleEvent
+ #31 _DPSNextEvent
+ #32 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #33 -[NSApplication run]
+ #34 NSApplicationMain
+ #35 EditorMain(int, char const**)
+ #36 main
+ #37 ???
+ #38 ???
+
+Requesting import of Guid(4575ee08c655343ea92a75799e90007d) Importer(-1,00000000000000000000000000000000), Assets/Scripts/Player.cs from editor
+Resuming Guid(4575ee08c655343ea92a75799e90007d) Importer(-1,00000000000000000000000000000000) -> ba83c708a0791b536beba0a91f58277c 
+Assertion failed on expression: 'unsafeDependencies != nullptr'
+
+Assertion failed on expression: 'unsafeDependencies != nullptr'
+
+Assertion failed on expression: 'unsafeMetaInfo != nullptr'
+
+Assertion failed on expression: 'safeMetaInfo != nullptr'
+
+Assertion failed on expression: 'state.state == kUpToDate'
+
+Assertion failed on expression: 'state.artifactID == result'
+
+ -> (artifact id: '00000000000000000000000000000000') in 0.011684 seconds  code(4) message(Build asset version error: assets/scripts/player.cs in SourceAssetDB has modification time of '2022-04-10T12:02:42Z' while content on disk has modification time of '2022-04-12T13:05:57Z')
+  ERROR: Build asset version error: assets/scripts/player.cs in SourceAssetDB has modification time of '2022-04-10T12:02:42Z' while content on disk has modification time of '2022-04-12T13:05:57Z'
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(f4485c91e5ee04b8bb96d41de6f27139) path("Assets/Scripts/RedAlienEnemy.cs") state(2)
+Script is not up to date after domain reload: guid(602f74cbbbd80034b96f88091a8e7c1d) path("Assets/CodeMonkey/Utils/Button_UI.cs") state(2)
+Script is not up to date after domain reload: guid(91ce8dcaef210db41a183b4558f16bb2) path("Assets/CodeMonkey/Utils/World_Mesh.cs") state(2)
+Script is not up to date after domain reload: guid(8ba4b604c0e9db241bb3d130165415cd) path("Assets/CodeMonkey/Utils/UI_TextComplex.cs") state(2)
+Script is not up to date after domain reload: guid(4771330f098d1db4898ad07204154d04) path("Assets/CodeMonkey/Utils/Button_Sprite.cs") state(2)
+Script is not up to date after domain reload: guid(d2de9ebc1890e4862a098a68a48f3bc6) path("Assets/Scripts/LastAIScript.cs") state(2)
+Script is not up to date after domain reload: guid(31e947e7eb3216d40b72c592fa6847a3) path("Assets/CodeMonkey/MonoBehaviours/CameraFollowSetup.cs") state(2)
+Script is not up to date after domain reload: guid(f73a3eab49f30d344a207d7d3d931d98) path("Assets/CodeMonkey/MonoBehaviours/CameraFollow.cs") state(2)
+Script is not up to date after domain reload: guid(eda7ff5f6e8175c4da119ea9ed256f6d) path("Assets/CodeMonkey/Assets.cs") state(2)
+Script is not up to date after domain reload: guid(1460472c3006fb44daea959dda2c4d81) path("Assets/CodeMonkey/Utils/World_Sprite.cs") state(2)
+Script is not up to date after domain reload: guid(edc2020a01573471ab33e6184dd439ef) path("Assets/Scripts/Enemy.cs") state(2)
+Script is not up to date after domain reload: guid(cc20fdc736e8c9442b35e4bcc04c596c) path("Assets/CodeMonkey/Utils/World_Bar.cs") state(2)
+Script is not up to date after domain reload: guid(ce2355f335dcae94abba806390b1bd76) path("Assets/CodeMonkey/Utils/UtilsClass.cs") state(2)
+Script is not up to date after domain reload: guid(b330b302c69005c4f98a928f7d71b877) path("Assets/CodeMonkey/MonoBehaviours/PositionRendererSorter.cs") state(2)
+Script is not up to date after domain reload: guid(4575ee08c655343ea92a75799e90007d) path("Assets/Scripts/Player.cs") state(2)
+Script is not up to date after domain reload: guid(ef6a5e3fe69f64dc1ab6682f43eedd29) path("Assets/Scripts/EnemyPathfindingMovement.cs") state(2)
+Script is not up to date after domain reload: guid(6aefec14fe65f41dbbe80998abf3685d) path("Assets/Scripts/PathNode.cs") state(2)
+Script is not up to date after domain reload: guid(7eacfbf662ad34e46932f36084c15e11) path("Assets/CodeMonkey/Utils/FunctionUpdater.cs") state(2)
+Script is not up to date after domain reload: guid(9c8b5f0217e73fa47827cf77f22c2f8d) path("Assets/CodeMonkey/Utils/FunctionTimer.cs") state(2)
+Script is not up to date after domain reload: guid(1dfbd74342db94bc3bb4a18826e9bed0) path("Assets/Scripts/Enemy_AI.cs") state(2)
+Script is not up to date after domain reload: guid(49ffd25ff4b0ca3429d1b1e2dc0ff037) path("Assets/CodeMonkey/Utils/UI_Bar.cs") state(2)
+Script is not up to date after domain reload: guid(663fbb6dd4de1495c886bd3c4fe5f4c4) path("Assets/Scripts/EnemyPathfinding.cs") state(2)
+Script is not up to date after domain reload: guid(cb3e855e7fda2944b91078893f9e8fd8) path("Assets/CodeMonkey/MonoBehaviours/ComponentActions.cs") state(2)
+Script is not up to date after domain reload: guid(bdb3ee83767704668a9828042c280e49) path("Assets/Scripts/EnemyKI.cs") state(2)
+Script is not up to date after domain reload: guid(d0052e8fbe8cbcd4d8c48038d364333b) path("Assets/CodeMonkey/Utils/UI_Sprite.cs") state(2)
+Script is not up to date after domain reload: guid(c561aaa3f66de4257a206d418fc006b8) path("Assets/Scripts/EnemyPath.cs") state(2)
+Script is not up to date after domain reload: guid(6e114fb013fdf4db2895956d47c73dd3) path("Assets/Scripts/WayPoints.cs") state(2)
+Script is not up to date after domain reload: guid(9cf7b152002fbca49b6a1a4623f200a7) path("Assets/CodeMonkey/Utils/UI_BarMultiple.cs") state(2)
+Script is not up to date after domain reload: guid(b711d30267c7d4ac6b7922bedee95793) path("Assets/Scripts/Grid.cs") state(2)
+Script is not up to date after domain reload: guid(d6005648898e7f647ad2202fe256c311) path("Assets/CodeMonkey/CMDebug.cs") state(2)
+Script is not up to date after domain reload: guid(f522bd6f08a5c984a9512bb60ebc1818) path("Assets/CodeMonkey/Utils/FunctionPeriodic.cs") state(2)
+Script is not up to date after domain reload: guid(416d0f5b582f542bda6c4876f4367b68) path("Assets/Scripts/TestingGridClass.cs") state(2)
+Registering precompiled user dll's ...
+Registered in 0.001291 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.295 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2296ms)
+		BeginReloadAssembly (213ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (41ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (73ms)
+		EndReloadAssembly (1988ms)
+			LoadAssemblies (175ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (356ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (1122ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (976ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (46ms)
+Platform modules already initialized, skipping
+Script is not up to date after domain reload: guid(f4485c91e5ee04b8bb96d41de6f27139) path("Assets/Scripts/RedAlienEnemy.cs") state(2)
+Script is not up to date after domain reload: guid(602f74cbbbd80034b96f88091a8e7c1d) path("Assets/CodeMonkey/Utils/Button_UI.cs") state(2)
+Script is not up to date after domain reload: guid(91ce8dcaef210db41a183b4558f16bb2) path("Assets/CodeMonkey/Utils/World_Mesh.cs") state(2)
+Script is not up to date after domain reload: guid(8ba4b604c0e9db241bb3d130165415cd) path("Assets/CodeMonkey/Utils/UI_TextComplex.cs") state(2)
+Script is not up to date after domain reload: guid(4771330f098d1db4898ad07204154d04) path("Assets/CodeMonkey/Utils/Button_Sprite.cs") state(2)
+Script is not up to date after domain reload: guid(d2de9ebc1890e4862a098a68a48f3bc6) path("Assets/Scripts/LastAIScript.cs") state(2)
+Script is not up to date after domain reload: guid(31e947e7eb3216d40b72c592fa6847a3) path("Assets/CodeMonkey/MonoBehaviours/CameraFollowSetup.cs") state(2)
+Script is not up to date after domain reload: guid(f73a3eab49f30d344a207d7d3d931d98) path("Assets/CodeMonkey/MonoBehaviours/CameraFollow.cs") state(2)
+Script is not up to date after domain reload: guid(eda7ff5f6e8175c4da119ea9ed256f6d) path("Assets/CodeMonkey/Assets.cs") state(2)
+Script is not up to date after domain reload: guid(1460472c3006fb44daea959dda2c4d81) path("Assets/CodeMonkey/Utils/World_Sprite.cs") state(2)
+Script is not up to date after domain reload: guid(edc2020a01573471ab33e6184dd439ef) path("Assets/Scripts/Enemy.cs") state(2)
+Script is not up to date after domain reload: guid(cc20fdc736e8c9442b35e4bcc04c596c) path("Assets/CodeMonkey/Utils/World_Bar.cs") state(2)
+Script is not up to date after domain reload: guid(ce2355f335dcae94abba806390b1bd76) path("Assets/CodeMonkey/Utils/UtilsClass.cs") state(2)
+Script is not up to date after domain reload: guid(b330b302c69005c4f98a928f7d71b877) path("Assets/CodeMonkey/MonoBehaviours/PositionRendererSorter.cs") state(2)
+Script is not up to date after domain reload: guid(4575ee08c655343ea92a75799e90007d) path("Assets/Scripts/Player.cs") state(2)
+Script is not up to date after domain reload: guid(ef6a5e3fe69f64dc1ab6682f43eedd29) path("Assets/Scripts/EnemyPathfindingMovement.cs") state(2)
+Script is not up to date after domain reload: guid(6aefec14fe65f41dbbe80998abf3685d) path("Assets/Scripts/PathNode.cs") state(2)
+Script is not up to date after domain reload: guid(7eacfbf662ad34e46932f36084c15e11) path("Assets/CodeMonkey/Utils/FunctionUpdater.cs") state(2)
+Script is not up to date after domain reload: guid(9c8b5f0217e73fa47827cf77f22c2f8d) path("Assets/CodeMonkey/Utils/FunctionTimer.cs") state(2)
+Script is not up to date after domain reload: guid(1dfbd74342db94bc3bb4a18826e9bed0) path("Assets/Scripts/Enemy_AI.cs") state(2)
+Script is not up to date after domain reload: guid(49ffd25ff4b0ca3429d1b1e2dc0ff037) path("Assets/CodeMonkey/Utils/UI_Bar.cs") state(2)
+Script is not up to date after domain reload: guid(663fbb6dd4de1495c886bd3c4fe5f4c4) path("Assets/Scripts/EnemyPathfinding.cs") state(2)
+Script is not up to date after domain reload: guid(cb3e855e7fda2944b91078893f9e8fd8) path("Assets/CodeMonkey/MonoBehaviours/ComponentActions.cs") state(2)
+Script is not up to date after domain reload: guid(bdb3ee83767704668a9828042c280e49) path("Assets/Scripts/EnemyKI.cs") state(2)
+Script is not up to date after domain reload: guid(d0052e8fbe8cbcd4d8c48038d364333b) path("Assets/CodeMonkey/Utils/UI_Sprite.cs") state(2)
+Script is not up to date after domain reload: guid(c561aaa3f66de4257a206d418fc006b8) path("Assets/Scripts/EnemyPath.cs") state(2)
+Script is not up to date after domain reload: guid(6e114fb013fdf4db2895956d47c73dd3) path("Assets/Scripts/WayPoints.cs") state(2)
+Script is not up to date after domain reload: guid(9cf7b152002fbca49b6a1a4623f200a7) path("Assets/CodeMonkey/Utils/UI_BarMultiple.cs") state(2)
+Script is not up to date after domain reload: guid(b711d30267c7d4ac6b7922bedee95793) path("Assets/Scripts/Grid.cs") state(2)
+Script is not up to date after domain reload: guid(d6005648898e7f647ad2202fe256c311) path("Assets/CodeMonkey/CMDebug.cs") state(2)
+Script is not up to date after domain reload: guid(f522bd6f08a5c984a9512bb60ebc1818) path("Assets/CodeMonkey/Utils/FunctionPeriodic.cs") state(2)
+Script is not up to date after domain reload: guid(416d0f5b582f542bda6c4876f4367b68) path("Assets/Scripts/TestingGridClass.cs") state(2)
+Refreshing native plugins compatible for Editor in 0.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2200 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 211.0 MB.
+System memory in use after: 211.1 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2678.
+Total: 2.423583 ms (FindLiveObjects: 0.083750 ms CreateObjectMapping: 0.110666 ms MarkObjects: 2.215042 ms  DeleteObjects: 0.013250 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

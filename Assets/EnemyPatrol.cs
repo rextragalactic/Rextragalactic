@@ -47,7 +47,7 @@ public class EnemyPatrol : StateMachineBehaviour
 
         //Set the Rotation
         float rotationZ = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-        rb.SetRotation(rotationZ - 90);
+        rb.SetRotation(rotationZ - 70);
 
         // Way Points Path
         if (Vector3.Distance(enemyPos, target) < minDistance)

@@ -63,6 +63,8 @@
     <Compile Include="Assets/Scripts/CameraFollow.cs" />
     <Compile Include="Assets/EnemyPatrol.cs" />
     <Compile Include="Assets/WayPointHolder.cs" />
+    <Compile Include="Assets/EnemyChase.cs" />
+    <Compile Include="Assets/EnemyMovement.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -18,7 +18,7 @@ public class EnemyPatrol : StateMachineBehaviour
     public float minDistance = 1;
 
 
-    // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
+   // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         wayPoints = GetWayPoints(animator);
@@ -28,7 +28,7 @@ public class EnemyPatrol : StateMachineBehaviour
         player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
-    private List<Vector3> GetWayPoints(Animator animator)
+   private List<Vector3> GetWayPoints(Animator animator)
     {
         return animator.gameObject.GetComponent<WayPointHolder>().wayPoints.ConvertAll(x => x.position);
     }
